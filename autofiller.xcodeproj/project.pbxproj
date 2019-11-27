@@ -7,21 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB88707C3F161C170D85F385 /* Autofiller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8870A2AEFB15CAE9D8F637 /* Autofiller.swift */; };
+		BB8871D4FDFBFC05194F2291 /* NestedFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8873E03042C405857F0B3D /* NestedFieldsViewController.swift */; };
+		BB887C1080E096970F335A2E /* SuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB88786F523A9516A81B6E10 /* SuccessViewController.xib */; };
+		BB887C5F0E9800FBE5575DE8 /* LoginableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887A2F78137D5CD487B670 /* LoginableViewController.swift */; };
+		BB887C676CD3B429943BABDD /* NestedFieldsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887CC593C1B03D4C8CC07D /* NestedFieldsViewController.xib */; };
+		BB887CA9B91F04ABFBE56E89 /* ImplicitFieldsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887A89780F725E2186F59A /* ImplicitFieldsViewController.xib */; };
+		BB887CBF399ADDB36B958F12 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887AE8C9F2185C22721261 /* UIView+Extensions.swift */; };
+		BB887D4EEBBCF6FAAAB4371F /* ImplicitFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887D3E33CE8D5B973DBE83 /* ImplicitFieldsViewController.swift */; };
+		BB887FA61D9205E59C459204 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB88782A5F01B98038A17615 /* SuccessViewController.swift */; };
 		D0D53C58238C390A008A7137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D53C57238C390A008A7137 /* AppDelegate.swift */; };
-		D0D53C5A238C390A008A7137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D53C59238C390A008A7137 /* ViewController.swift */; };
-		D0D53C5D238C390A008A7137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D53C5B238C390A008A7137 /* Main.storyboard */; };
 		D0D53C5F238C390C008A7137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D53C5E238C390C008A7137 /* Assets.xcassets */; };
 		D0D53C62238C390C008A7137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D53C60238C390C008A7137 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB8870A2AEFB15CAE9D8F637 /* Autofiller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Autofiller.swift; sourceTree = "<group>"; };
+		BB8873E03042C405857F0B3D /* NestedFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsViewController.swift; sourceTree = "<group>"; };
+		BB88782A5F01B98038A17615 /* SuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		BB88786F523A9516A81B6E10 /* SuccessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuccessViewController.xib; sourceTree = "<group>"; };
+		BB887A2F78137D5CD487B670 /* LoginableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginableViewController.swift; sourceTree = "<group>"; };
+		BB887A89780F725E2186F59A /* ImplicitFieldsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImplicitFieldsViewController.xib; sourceTree = "<group>"; };
+		BB887AE8C9F2185C22721261 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		BB887CC593C1B03D4C8CC07D /* NestedFieldsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedFieldsViewController.xib; sourceTree = "<group>"; };
+		BB887D3E33CE8D5B973DBE83 /* ImplicitFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsViewController.swift; sourceTree = "<group>"; };
 		D0D53C54238C390A008A7137 /* autofiller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autofiller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D53C57238C390A008A7137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0D53C59238C390A008A7137 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0D53C5C238C390A008A7137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0D53C5E238C390C008A7137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0D53C61238C390C008A7137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0D53C63238C390C008A7137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D53C6D238C43C4008A7137 /* autofiller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = autofiller.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +50,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB887205ED3C92822FDB829E /* NestedFieldsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB8873E03042C405857F0B3D /* NestedFieldsViewController.swift */,
+				BB887CC593C1B03D4C8CC07D /* NestedFieldsViewController.xib */,
+			);
+			path = NestedFieldsViewController;
+			sourceTree = "<group>";
+		};
+		BB887337830E92152185F34C /* SuccessViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB88782A5F01B98038A17615 /* SuccessViewController.swift */,
+				BB88786F523A9516A81B6E10 /* SuccessViewController.xib */,
+			);
+			path = SuccessViewController;
+			sourceTree = "<group>";
+		};
+		BB8877825DE8494560BD4F5C /* ImplicitFieldsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB887D3E33CE8D5B973DBE83 /* ImplicitFieldsViewController.swift */,
+				BB887A89780F725E2186F59A /* ImplicitFieldsViewController.xib */,
+			);
+			path = ImplicitFieldsViewController;
+			sourceTree = "<group>";
+		};
 		D0D53C4B238C390A008A7137 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +96,17 @@
 		D0D53C56238C390A008A7137 /* autofiller */ = {
 			isa = PBXGroup;
 			children = (
+				D0D53C6D238C43C4008A7137 /* autofiller.entitlements */,
 				D0D53C57238C390A008A7137 /* AppDelegate.swift */,
-				D0D53C59238C390A008A7137 /* ViewController.swift */,
-				D0D53C5B238C390A008A7137 /* Main.storyboard */,
 				D0D53C5E238C390C008A7137 /* Assets.xcassets */,
 				D0D53C60238C390C008A7137 /* LaunchScreen.storyboard */,
 				D0D53C63238C390C008A7137 /* Info.plist */,
+				BB887A2F78137D5CD487B670 /* LoginableViewController.swift */,
+				BB887337830E92152185F34C /* SuccessViewController */,
+				BB8877825DE8494560BD4F5C /* ImplicitFieldsViewController */,
+				BB887205ED3C92822FDB829E /* NestedFieldsViewController */,
+				BB8870A2AEFB15CAE9D8F637 /* Autofiller.swift */,
+				BB887AE8C9F2185C22721261 /* UIView+Extensions.swift */,
 			);
 			path = autofiller;
 			sourceTree = "<group>";
@@ -96,6 +143,11 @@
 				TargetAttributes = {
 					D0D53C53238C390A008A7137 = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,7 +176,9 @@
 			files = (
 				D0D53C62238C390C008A7137 /* LaunchScreen.storyboard in Resources */,
 				D0D53C5F238C390C008A7137 /* Assets.xcassets in Resources */,
-				D0D53C5D238C390A008A7137 /* Main.storyboard in Resources */,
+				BB887C1080E096970F335A2E /* SuccessViewController.xib in Resources */,
+				BB887CA9B91F04ABFBE56E89 /* ImplicitFieldsViewController.xib in Resources */,
+				BB887C676CD3B429943BABDD /* NestedFieldsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +189,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0D53C5A238C390A008A7137 /* ViewController.swift in Sources */,
 				D0D53C58238C390A008A7137 /* AppDelegate.swift in Sources */,
+				BB887C5F0E9800FBE5575DE8 /* LoginableViewController.swift in Sources */,
+				BB887FA61D9205E59C459204 /* SuccessViewController.swift in Sources */,
+				BB887D4EEBBCF6FAAAB4371F /* ImplicitFieldsViewController.swift in Sources */,
+				BB8871D4FDFBFC05194F2291 /* NestedFieldsViewController.swift in Sources */,
+				BB88707C3F161C170D85F385 /* Autofiller.swift in Sources */,
+				BB887CBF399ADDB36B958F12 /* UIView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D0D53C5B238C390A008A7137 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0D53C5C238C390A008A7137 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D0D53C60238C390C008A7137 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,14 +333,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = autofiller/autofiller.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2T7P8BR7NV;
+				DEVELOPMENT_TEAM = R97L8Z3A9J;
 				INFOPLIST_FILE = autofiller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.djachenko.autofiller;
+				PRODUCT_BUNDLE_IDENTIFIER = com.idjachenko.autofiller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,14 +352,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = autofiller/autofiller.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2T7P8BR7NV;
+				DEVELOPMENT_TEAM = R97L8Z3A9J;
 				INFOPLIST_FILE = autofiller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.djachenko.autofiller;
+				PRODUCT_BUNDLE_IDENTIFIER = com.idjachenko.autofiller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

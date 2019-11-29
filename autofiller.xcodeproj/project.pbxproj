@@ -22,6 +22,7 @@
 		BB887C44E416D52B302DE27E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887004D7BCACEA8CEFD20B /* BaseViewController.swift */; };
 		BB887D7F87718993DEC342AC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BB887CE791322F583084937A /* Podfile */; };
 		BB887E78C2A8A401A07742E1 /* ImplicitFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887A8D797702394D663E86 /* ImplicitFieldsViewController.swift */; };
+		BB887F993114083809241D68 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887D7CFFDE98531E8158EC /* Array+Extensions.swift */; };
 		BB887FA61D9205E59C459204 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB88782A5F01B98038A17615 /* SuccessViewController.swift */; };
 		D0D53C58238C390A008A7137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D53C57238C390A008A7137 /* AppDelegate.swift */; };
 		D0D53C5F238C390C008A7137 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D53C5E238C390C008A7137 /* Images.xcassets */; };
@@ -44,6 +45,7 @@
 		BB887A8D797702394D663E86 /* ImplicitFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsViewController.swift; sourceTree = "<group>"; };
 		BB887BCAF7F4B45BB2C115D9 /* ExampleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleTableViewCell.xib; sourceTree = "<group>"; };
 		BB887CE791322F583084937A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		BB887D7CFFDE98531E8158EC /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		BB887EA4C837DCBF4D092F61 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		BB887FBA3A96224D3002747C /* ExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewCell.swift; sourceTree = "<group>"; };
 		CF444763D8911A5DBF77073C /* libPods-autofiller.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-autofiller.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				BB887EA4C837DCBF4D092F61 /* UIView+Extensions.swift */,
+				BB887D7CFFDE98531E8158EC /* Array+Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				BB8876997D2FED821F36561F /* NestedFieldsViewController.swift in Sources */,
 				BB88708780FF1614F0B6D653 /* UIView+Extensions.swift in Sources */,
 				BB8876BF5DC6D7B74C8DA005 /* AutofillableViewController.swift in Sources */,
+				BB887F993114083809241D68 /* Array+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,17 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
 
-        let rootController = UITabBarController()
-
-        let viewControllers = [
-            ImplicitFieldsViewController(),
-            NestedFieldsViewController()
+        let exampleVCTypes = [
+            ImplicitFieldsViewController.self,
+            NestedFieldsViewController.self
         ]
 
-        let navigationControllers = viewControllers.map { vc in UINavigationController(rootViewController: vc)}
+        let exampleListVC = ExampleListViewController(examples: exampleVCTypes)
 
-        rootController.viewControllers = navigationControllers
-        rootController.selectedIndex = 0
+        let rootController = UINavigationController(rootViewController: exampleListVC)
 
         window?.rootViewController = rootController
 

@@ -7,7 +7,31 @@ import Foundation
 import UIKit
 
 class Autofiller {
-    static func connect(fields: [UITextField]) {
+    static func connectFields(login: UITextField, password: UITextField) {
+        login.textContentType = .username
+        password.textContentType = .password
+
+        connect(fields: [
+            login,
+            password
+        ])
+    }
+
+    static func connectFields(login: UITextField, newPassword: UITextField, confirmPassword: UITextField? = nil) {
+        login.textContentType = .username
+        newPassword.textContentType = .newPassword
+        confirmPassword?.textContentType = .newPassword
+
+        connect(fields: [
+            login,
+            newPassword,
+            confirmPassword
+        ].compactMap {
+            $0
+        })
+    }
+
+    private static func connect(fields: [UITextField]) {
         guard let commonView = UIView.commonAncestor(for: fields) else {
             return
         }

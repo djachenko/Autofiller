@@ -12,6 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImplicitFieldsViewController" customModule="autofiller" customModuleProvider="target">
             <connections>
+                <outlet property="loginField" destination="Gra-Lk-xFd" id="hna-zD-Yh3"/>
+                <outlet property="passwordField" destination="VyM-zz-qRA" id="cHh-UE-CrL"/>
                 <outlet property="view" destination="iN0-l3-epB" id="CcV-Ln-aO7"/>
             </connections>
         </placeholder>

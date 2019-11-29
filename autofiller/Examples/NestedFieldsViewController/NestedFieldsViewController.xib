@@ -12,8 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NestedFieldsViewController" customModule="autofiller">
             <connections>
-                <outlet property="loginTextView" destination="Gra-Lk-xFd" id="wD6-ih-vzB"/>
-                <outlet property="passwordTextView" destination="llx-da-S66" id="Zm6-fu-u6t"/>
+                <outlet property="loginField" destination="Gra-Lk-xFd" id="nIb-P9-bFq"/>
+                <outlet property="passwordField" destination="llx-da-S66" id="2Yy-tb-e9i"/>
                 <outlet property="view" destination="iN0-l3-epB" id="CcV-Ln-aO7"/>
             </connections>
         </placeholder>

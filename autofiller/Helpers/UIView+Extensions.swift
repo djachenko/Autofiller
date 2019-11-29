@@ -12,8 +12,6 @@ extension UIView {
             return nil
         }
 
-
-
         for view in views {
             while !view.isDescendant(of: testView) {
                 guard let superview = testView.superview else {
@@ -30,7 +28,6 @@ extension UIView {
 
     func allExternalConstraints() -> [NSLayoutConstraint] {
         var constraints = [NSLayoutConstraint]()
-
 
         var _superview = superview
 

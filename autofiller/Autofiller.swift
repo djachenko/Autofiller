@@ -36,6 +36,15 @@ class Autofiller {
             return
         }
 
+        let fieldsAreAlreadySiblings = fields
+                .map({ $0.superview })
+                .compactMap({ $0 })
+                .same()
+
+        guard !fieldsAreAlreadySiblings else {
+            return
+        }
+
         fields.forEach { view in
             let viewConstraints = view.allExternalConstraints()
 

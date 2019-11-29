@@ -29,12 +29,12 @@ class AutofillableViewController: BaseViewController {
         fatalError("init(coder:) not implemented")
     }
 
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+    override func viewDidLoad() {
+        super.viewDidLoad()
 
         updateAutofill()
     }
-
+    
     private func updateTabBarItem() {
         var item: UITabBarItem
 

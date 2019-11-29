@@ -63,6 +63,10 @@ class Autofiller {
             newConstraints.forEach { constraint in
                 constraint.isActive = true
             }
+
+            commonConstraints.forEach { constraint in
+                constraint.isActive = false
+            }
         }
     }
 }

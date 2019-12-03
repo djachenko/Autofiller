@@ -19,8 +19,18 @@ public class Autofiller {
 
     public static func connectFields(login: UITextField, newPassword: UITextField, confirmPassword: UITextField? = nil) {
         login.textContentType = .username
-        newPassword.textContentType = .newPassword
-        confirmPassword?.textContentType = .newPassword
+
+        var newPasswordValue: UITextContentType
+
+        if #available(iOS 12, *) {
+            newPasswordValue = .newPassword
+        }
+        else {
+            newPasswordValue = .password
+        }
+
+        newPassword.textContentType = newPasswordValue
+        confirmPassword?.textContentType = newPasswordValue
 
         connect(fields: [
             login,

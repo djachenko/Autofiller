@@ -58,6 +58,7 @@
 		359E165505E8807D46CA91B4 /* libPods-AutofillerExamples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutofillerExamples.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C40DC115113CD5A1741571C /* Pods-AutofillerExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerExamples.release.xcconfig"; path = "Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples.release.xcconfig"; sourceTree = "<group>"; };
 		BB887004D7BCACEA8CEFD20B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BB8870748A382E670C3AF8AB /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		BB887297D321420763E1146F /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		BB8873299648F3E7894F638B /* ImplicitFieldsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImplicitFieldsViewController.xib; sourceTree = "<group>"; };
 		BB88746AE3CE1B45671C0303 /* NestedFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 		BB8878AD6FD6289E05B5B766 /* ExampleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleListViewController.swift; sourceTree = "<group>"; };
 		BB887A8D797702394D663E86 /* ImplicitFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsViewController.swift; sourceTree = "<group>"; };
 		BB887BCAF7F4B45BB2C115D9 /* ExampleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleTableViewCell.xib; sourceTree = "<group>"; };
+		BB887BCD836EFB0C867C361F /* Autofiller.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = Autofiller.podspec; sourceTree = "<group>"; };
 		BB887CE791322F583084937A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		BB887FB64E0696BEA98685DB /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		BB887FBA3A96224D3002747C /* ExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewCell.swift; sourceTree = "<group>"; };
@@ -212,6 +214,8 @@
 				BB887CE791322F583084937A /* Podfile */,
 				9C3EAFF8D8351DF2664EF710 /* Pods */,
 				D0D53C55238C390A008A7137 /* Products */,
+				BB887BCD836EFB0C867C361F /* Autofiller.podspec */,
+				BB8870748A382E670C3AF8AB /* LICENSE.txt */,
 			);
 			sourceTree = "<group>";
 		};

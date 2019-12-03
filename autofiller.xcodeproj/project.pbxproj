@@ -22,6 +22,7 @@
 		D06080BA2395C13E00643D02 /* NestedFieldsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887688510569AF58967C1F /* NestedFieldsViewController.xib */; };
 		D06080BB2395C13E00643D02 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB88782A5F01B98038A17615 /* SuccessViewController.swift */; };
 		D06080BC2395C13E00643D02 /* SuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB88786F523A9516A81B6E10 /* SuccessViewController.xib */; };
+		D07DD2C22396B974007D6FD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D53C5E238C390C008A7137 /* Images.xcassets */; };
 		D0DF30962395C76B0040388E /* Autofiller.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DF30942395C76B0040388E /* Autofiller.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0DF30992395C76B0040388E /* Autofiller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DF30922395C76B0040388E /* Autofiller.framework */; };
 		D0DF309A2395C76B0040388E /* Autofiller.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0DF30922395C76B0040388E /* Autofiller.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -205,12 +206,12 @@
 		D0D53C4B238C390A008A7137 = {
 			isa = PBXGroup;
 			children = (
-				D060809E2395BFC700643D02 /* AutofillerExamples */,
 				D0DF30932395C76B0040388E /* Autofiller */,
-				D0D53C55238C390A008A7137 /* Products */,
+				D060809E2395BFC700643D02 /* AutofillerExamples */,
+				AAE8FB1BB7FC9B09426BFB1F /* Frameworks */,
 				BB887CE791322F583084937A /* Podfile */,
 				9C3EAFF8D8351DF2664EF710 /* Pods */,
-				AAE8FB1BB7FC9B09426BFB1F /* Frameworks */,
+				D0D53C55238C390A008A7137 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -337,6 +338,7 @@
 				D06080BA2395C13E00643D02 /* NestedFieldsViewController.xib in Resources */,
 				D06080B82395C13E00643D02 /* ImplicitFieldsViewController.xib in Resources */,
 				D06080BC2395C13E00643D02 /* SuccessViewController.xib in Resources */,
+				D07DD2C22396B974007D6FD0 /* Images.xcassets in Resources */,
 				D06080B52395C13E00643D02 /* ExampleTableViewCell.xib in Resources */,
 				D06080B32395C13E00643D02 /* ExampleListViewController.xib in Resources */,
 			);

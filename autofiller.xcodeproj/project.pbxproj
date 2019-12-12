@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BB8871A8654F683495C7FE7A /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887297D321420763E1146F /* Array+Extensions.swift */; };
 		BB8876AD70B883C3CE50B920 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887FB64E0696BEA98685DB /* UIView+Extensions.swift */; };
+		D021C40A23A2938C00F59ED0 /* AutofillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D021C40923A2938C00F59ED0 /* AutofillerTests.swift */; };
+		D021C40C23A2938C00F59ED0 /* Autofiller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DF30922395C76B0040388E /* Autofiller.framework */; };
 		D06080B02395C13E00643D02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D53C57238C390A008A7137 /* AppDelegate.swift */; };
 		D06080B12395C13E00643D02 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887004D7BCACEA8CEFD20B /* BaseViewController.swift */; };
 		D06080B22395C13E00643D02 /* ExampleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8878AD6FD6289E05B5B766 /* ExampleListViewController.swift */; };
@@ -31,6 +33,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D021C40D23A2938C00F59ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D53C4C238C390A008A7137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0DF30912395C76B0040388E;
+			remoteInfo = Autofiller;
+		};
 		D0DF30972395C76B0040388E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D0D53C4C238C390A008A7137 /* Project object */;
@@ -74,6 +83,9 @@
 		BB887CE791322F583084937A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		BB887FB64E0696BEA98685DB /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		BB887FBA3A96224D3002747C /* ExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewCell.swift; sourceTree = "<group>"; };
+		D021C40723A2938C00F59ED0 /* AutofillerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutofillerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D021C40923A2938C00F59ED0 /* AutofillerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutofillerTests.swift; sourceTree = "<group>"; };
+		D021C40B23A2938C00F59ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D060809D2395BFC700643D02 /* AutofillerExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutofillerExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06080BD2395C16900643D02 /* AutofillerExamples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutofillerExamples.entitlements; sourceTree = "<group>"; };
 		D0D53C57238C390A008A7137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +100,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D021C40423A2938C00F59ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D021C40C23A2938C00F59ED0 /* Autofiller.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D060809A2395BFC700643D02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,6 +209,15 @@
 			path = Examples;
 			sourceTree = "<group>";
 		};
+		D021C40823A2938C00F59ED0 /* AutofillerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D021C40923A2938C00F59ED0 /* AutofillerTests.swift */,
+				D021C40B23A2938C00F59ED0 /* Info.plist */,
+			);
+			path = AutofillerTests;
+			sourceTree = "<group>";
+		};
 		D060809E2395BFC700643D02 /* AutofillerExamples */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +239,7 @@
 			children = (
 				D0DF30932395C76B0040388E /* Autofiller */,
 				D060809E2395BFC700643D02 /* AutofillerExamples */,
+				D021C40823A2938C00F59ED0 /* AutofillerTests */,
 				AAE8FB1BB7FC9B09426BFB1F /* Frameworks */,
 				BB887CE791322F583084937A /* Podfile */,
 				9C3EAFF8D8351DF2664EF710 /* Pods */,
@@ -224,6 +254,7 @@
 			children = (
 				D060809D2395BFC700643D02 /* AutofillerExamples.app */,
 				D0DF30922395C76B0040388E /* Autofiller.framework */,
+				D021C40723A2938C00F59ED0 /* AutofillerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -253,6 +284,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		D021C40623A2938C00F59ED0 /* AutofillerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D021C41123A2938C00F59ED0 /* Build configuration list for PBXNativeTarget "AutofillerTests" */;
+			buildPhases = (
+				D021C40323A2938C00F59ED0 /* Sources */,
+				D021C40423A2938C00F59ED0 /* Frameworks */,
+				D021C40523A2938C00F59ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D021C40E23A2938C00F59ED0 /* PBXTargetDependency */,
+			);
+			name = AutofillerTests;
+			productName = AutofillerTests;
+			productReference = D021C40723A2938C00F59ED0 /* AutofillerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D060809C2395BFC700643D02 /* AutofillerExamples */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D06080AE2395BFC800643D02 /* Build configuration list for PBXNativeTarget "AutofillerExamples" */;
@@ -301,6 +350,9 @@
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = djachenko;
 				TargetAttributes = {
+					D021C40623A2938C00F59ED0 = {
+						CreatedOnToolsVersion = 10.3;
+					};
 					D060809C2395BFC700643D02 = {
 						CreatedOnToolsVersion = 10.3;
 						SystemCapabilities = {
@@ -315,7 +367,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D0D53C4F238C390A008A7137 /* Build configuration list for PBXProject "autofiller" */;
+			buildConfigurationList = D0D53C4F238C390A008A7137 /* Build configuration list for PBXProject "Autofiller" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -330,11 +382,19 @@
 			targets = (
 				D060809C2395BFC700643D02 /* AutofillerExamples */,
 				D0DF30912395C76B0040388E /* Autofiller */,
+				D021C40623A2938C00F59ED0 /* AutofillerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D021C40523A2938C00F59ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D060809B2395BFC700643D02 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -383,6 +443,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D021C40323A2938C00F59ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D021C40A23A2938C00F59ED0 /* AutofillerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D06080992395BFC700643D02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,6 +479,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D021C40E23A2938C00F59ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0DF30912395C76B0040388E /* Autofiller */;
+			targetProxy = D021C40D23A2938C00F59ED0 /* PBXContainerItemProxy */;
+		};
 		D0DF30982395C76B0040388E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D0DF30912395C76B0040388E /* Autofiller */;
@@ -430,6 +503,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D021C40F23A2938C00F59ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T7P8BR7NV;
+				INFOPLIST_FILE = AutofillerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djachenko.AutofillerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D021C41023A2938C00F59ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T7P8BR7NV;
+				INFOPLIST_FILE = AutofillerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djachenko.AutofillerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D06080AC2395BFC800643D02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E254AD4964C6F0C52139545B /* Pods-AutofillerExamples.debug.xcconfig */;
@@ -652,6 +761,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D021C41123A2938C00F59ED0 /* Build configuration list for PBXNativeTarget "AutofillerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D021C40F23A2938C00F59ED0 /* Debug */,
+				D021C41023A2938C00F59ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D06080AE2395BFC800643D02 /* Build configuration list for PBXNativeTarget "AutofillerExamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -661,7 +779,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0D53C4F238C390A008A7137 /* Build configuration list for PBXProject "autofiller" */ = {
+		D0D53C4F238C390A008A7137 /* Build configuration list for PBXProject "Autofiller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0D53C64238C390C008A7137 /* Debug */,

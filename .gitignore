@@ -1,10 +1,8 @@
 
 .idea/
 
-autofiller.xcodeproj/project.xcworkspace/xcuserdata/
-
-autofiller.xcodeproj/xcuserdata/
-
-autofiller.xcworkspace/xcuserdata/
+xcuserdata/
 
 Pods/
+
+build/

@@ -67,8 +67,6 @@ public class Autofiller {
                 return firstItem == view || secondItem == view
             }
 
-            print("common \(commonConstraints.count)")
-
             commonView.addSubview(view)
 
             let newConstraints = commonConstraints.map { old in

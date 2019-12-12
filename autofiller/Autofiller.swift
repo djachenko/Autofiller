@@ -6,8 +6,8 @@
 import Foundation
 import UIKit
 
-class Autofiller {
-    static func connectFields(login: UITextField, password: UITextField) {
+public class Autofiller {
+    public static func connectFields(login: UITextField, password: UITextField) {
         login.textContentType = .username
         password.textContentType = .password
 
@@ -17,10 +17,20 @@ class Autofiller {
         ])
     }
 
-    static func connectFields(login: UITextField, newPassword: UITextField, confirmPassword: UITextField? = nil) {
+    public static func connectFields(login: UITextField, newPassword: UITextField, confirmPassword: UITextField? = nil) {
         login.textContentType = .username
-        newPassword.textContentType = .newPassword
-        confirmPassword?.textContentType = .newPassword
+
+        var newPasswordValue: UITextContentType
+
+        if #available(iOS 12, *) {
+            newPasswordValue = .newPassword
+        }
+        else {
+            newPasswordValue = .password
+        }
+
+        newPassword.textContentType = newPasswordValue
+        confirmPassword?.textContentType = newPasswordValue
 
         connect(fields: [
             login,
@@ -56,6 +66,8 @@ class Autofiller {
 
                 return firstItem == view || secondItem == view
             }
+
+            print("common \(commonConstraints.count)")
 
             commonView.addSubview(view)
 

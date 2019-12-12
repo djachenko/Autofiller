@@ -5,6 +5,7 @@
 
 import Foundation
 import UIKit
+import Autofiller
 
 class AutofillableViewController: BaseViewController {
     @IBOutlet private(set) weak var loginField: UITextField!
@@ -34,7 +35,7 @@ class AutofillableViewController: BaseViewController {
 
         updateAutofill()
     }
-    
+
     private func updateTabBarItem() {
         var item: UITabBarItem
 

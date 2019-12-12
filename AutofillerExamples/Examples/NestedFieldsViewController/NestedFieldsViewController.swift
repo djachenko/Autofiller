@@ -6,7 +6,7 @@
 import Foundation
 import UIKit
 
-public class NestedFieldsViewController: AutofillableViewController {
+class NestedFieldsViewController: AutofillableViewController {
     override class var name: String {
         return "Nested fields"
     }

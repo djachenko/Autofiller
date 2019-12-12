@@ -6,7 +6,7 @@
 import Foundation
 import UIKit
 
-public class BaseViewController: UIViewController {
+class BaseViewController: UIViewController {
     init() {
         super.init(nibName: nil, bundle: nil)
     }

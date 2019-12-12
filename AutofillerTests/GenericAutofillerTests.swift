@@ -9,18 +9,22 @@
 import XCTest
 @testable import AutofillerExamples
 
-class AutofillerTests: XCTestCase {
+class GenericAutofillerTests: XCTestCase {
 
     var viewController: AutofillableViewController!
 
     override func setUp() {
-        viewController = NestedFieldsViewController(autofillEnabled: true)
+        viewController = createVC()
 
         let _ = viewController.view
     }
 
     override func tearDown() {
         viewController = nil
+    }
+
+    func createVC() -> AutofillableViewController {
+        fatalError("createVC() is not implemented")
     }
 
     func testLoginFieldInitialized() {
@@ -36,5 +40,9 @@ class AutofillerTests: XCTestCase {
                 viewController.loginField.superview,
                 viewController.passwordField.superview
         )
+    }
+
+    override class var defaultTestSuite: XCTestSuite {
+        return XCTestSuite(name: "Generic tests excluded")
     }
 }

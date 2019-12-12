@@ -7,9 +7,9 @@ import Foundation
 import UIKit
 import Autofiller
 
-public class AutofillableViewController: BaseViewController {
-    @IBOutlet public private(set) weak var loginField: UITextField!
-    @IBOutlet public private(set) weak var passwordField: UITextField!
+class AutofillableViewController: BaseViewController {
+    @IBOutlet private(set) weak var loginField: UITextField!
+    @IBOutlet private(set) weak var passwordField: UITextField!
 
     class var name: String {
         fatalError()
@@ -17,7 +17,7 @@ public class AutofillableViewController: BaseViewController {
 
     let autofillEnabled: Bool
 
-    public required init(autofillEnabled: Bool) {
+    required init(autofillEnabled: Bool) {
         self.autofillEnabled = autofillEnabled
 
         super.init()
@@ -30,7 +30,7 @@ public class AutofillableViewController: BaseViewController {
         fatalError("init(coder:) not implemented")
     }
 
-    override public func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
 
         updateAutofill()

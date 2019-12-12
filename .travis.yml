@@ -1,0 +1,5 @@
+language: objective-c
+xcode_workspace: Autofiller.xcworkspace
+xcode_scheme: AutofillerTests
+osx_image: xcode10.3
+xcode_destination: platform=iOS Simulator,OS=12.4,name=iPhone 8

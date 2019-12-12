@@ -77,6 +77,7 @@
 		27E74F0E46A49E153DE3BFC7 /* Pods_AutofillerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutofillerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		593399A5F882BDE76F04913A /* Pods-AutofillerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerTests.debug.xcconfig"; path = "Target Support Files/Pods-AutofillerTests/Pods-AutofillerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		89FED3BC46C139ED95493981 /* Pods_AutofillerExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutofillerExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8870001E84D001D36EC5D2 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = file.yml; path = .travis.yml; sourceTree = "<group>"; };
 		BB887004D7BCACEA8CEFD20B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		BB8870748A382E670C3AF8AB /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		BB887297D321420763E1146F /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
@@ -267,6 +268,7 @@
 				BB887BCD836EFB0C867C361F /* Autofiller.podspec */,
 				BB8870748A382E670C3AF8AB /* LICENSE.txt */,
 				9A2C256A542F4FEA59350D32 /* Frameworks */,
+				BB8870001E84D001D36EC5D2 /* .travis.yml */,
 			);
 			sourceTree = "<group>";
 		};

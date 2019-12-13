@@ -15,7 +15,6 @@
 		BB8876AD70B883C3CE50B920 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887FB64E0696BEA98685DB /* UIView+Extensions.swift */; };
 		BB8879BAC805E959FEA5CE71 /* NestedFieldsAutofillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887644475BE95E442801A7 /* NestedFieldsAutofillerTests.swift */; };
 		D021C40A23A2938C00F59ED0 /* GenericAutofillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D021C40923A2938C00F59ED0 /* GenericAutofillerTests.swift */; };
-		D021C40C23A2938C00F59ED0 /* Autofiller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DF30922395C76B0040388E /* Autofiller.framework */; };
 		D06080B02395C13E00643D02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D53C57238C390A008A7137 /* AppDelegate.swift */; };
 		D06080B12395C13E00643D02 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887004D7BCACEA8CEFD20B /* BaseViewController.swift */; };
 		D06080B22395C13E00643D02 /* ExampleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8878AD6FD6289E05B5B766 /* ExampleListViewController.swift */; };
@@ -31,32 +30,16 @@
 		D06080BC2395C13E00643D02 /* SuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB88786F523A9516A81B6E10 /* SuccessViewController.xib */; };
 		D07DD2C22396B974007D6FD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D53C5E238C390C008A7137 /* Images.xcassets */; };
 		D0DF30962395C76B0040388E /* Autofiller.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DF30942395C76B0040388E /* Autofiller.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0DF30992395C76B0040388E /* Autofiller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DF30922395C76B0040388E /* Autofiller.framework */; };
-		D0DF309A2395C76B0040388E /* Autofiller.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0DF30922395C76B0040388E /* Autofiller.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0DF30A02395C7B40040388E /* Autofiller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DF309E2395C7B40040388E /* Autofiller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D021C40D23A2938C00F59ED0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0D53C4C238C390A008A7137 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D0DF30912395C76B0040388E;
-			remoteInfo = Autofiller;
-		};
 		D06E719523A29ACB0060B24E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D0D53C4C238C390A008A7137 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D060809C2395BFC700643D02;
 			remoteInfo = AutofillerExamples;
-		};
-		D0DF30972395C76B0040388E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0D53C4C238C390A008A7137 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D0DF30912395C76B0040388E;
-			remoteInfo = Autofiller;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -67,7 +50,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D0DF309A2395C76B0040388E /* Autofiller.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,7 +103,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D021C40C23A2938C00F59ED0 /* Autofiller.framework in Frameworks */,
 				13252BD50A2111D6F303B08E /* Pods_AutofillerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,7 +111,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0DF30992395C76B0040388E /* Autofiller.framework in Frameworks */,
 				6E2E3F9AE5BCEDBC8A606D9D /* Pods_AutofillerExamples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,7 +302,6 @@
 			);
 			dependencies = (
 				D06E719623A29ACB0060B24E /* PBXTargetDependency */,
-				D021C40E23A2938C00F59ED0 /* PBXTargetDependency */,
 			);
 			name = AutofillerTests;
 			productName = AutofillerTests;
@@ -343,7 +322,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D0DF30982395C76B0040388E /* PBXTargetDependency */,
 			);
 			name = AutofillerExamples;
 			productName = AutofillerExamples;
@@ -408,8 +386,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D060809C2395BFC700643D02 /* AutofillerExamples */,
 				D0DF30912395C76B0040388E /* Autofiller */,
+				D060809C2395BFC700643D02 /* AutofillerExamples */,
 				D021C40623A2938C00F59ED0 /* AutofillerTests */,
 			);
 		};
@@ -566,20 +544,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D021C40E23A2938C00F59ED0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D0DF30912395C76B0040388E /* Autofiller */;
-			targetProxy = D021C40D23A2938C00F59ED0 /* PBXContainerItemProxy */;
-		};
 		D06E719623A29ACB0060B24E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D060809C2395BFC700643D02 /* AutofillerExamples */;
 			targetProxy = D06E719523A29ACB0060B24E /* PBXContainerItemProxy */;
-		};
-		D0DF30982395C76B0040388E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D0DF30912395C76B0040388E /* Autofiller */;
-			targetProxy = D0DF30972395C76B0040388E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

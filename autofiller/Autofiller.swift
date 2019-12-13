@@ -6,6 +6,7 @@
 import Foundation
 import UIKit
 
+@available(iOS 11, *)
 public class Autofiller {
     public static func connectFields(login: UITextField, password: UITextField) {
         login.textContentType = .username

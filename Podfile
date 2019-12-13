@@ -1,9 +1,17 @@
 ENV['SWIFT_VERSION'] = '5'
 
-platform :ios, '9.0'
+platform :ios, '11.0'
+use_frameworks!
+
+
+def shared_pods
+  pod 'TableKit'
+end
 
 target 'AutofillerExamples' do
+  shared_pods
+end
 
-  pod 'TableKit'
-
+target 'AutofillerTests' do
+  shared_pods
 end

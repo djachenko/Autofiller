@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  autofiller
 //
-//  Created by justin on 25/11/2019.
+//  Created by Igor Djachenko on 25/11/2019.
 //  Copyright © 2019 djachenko. All rights reserved.
 //
 

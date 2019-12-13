@@ -11,6 +11,7 @@
 		6E2E3F9AE5BCEDBC8A606D9D /* Pods_AutofillerExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FED3BC46C139ED95493981 /* Pods_AutofillerExamples.framework */; };
 		BB8871A8654F683495C7FE7A /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887297D321420763E1146F /* Array+Extensions.swift */; };
 		BB88730333336AC3F6A85FAE /* ImplicitFieldsAutofillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887C498836787B0E155304 /* ImplicitFieldsAutofillerTests.swift */; };
+		BB88732E168A0951B5E41AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8878673CEE4520952F2BA9 /* LaunchScreen.storyboard */; };
 		BB8876AD70B883C3CE50B920 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887FB64E0696BEA98685DB /* UIView+Extensions.swift */; };
 		BB8879BAC805E959FEA5CE71 /* NestedFieldsAutofillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887644475BE95E442801A7 /* NestedFieldsAutofillerTests.swift */; };
 		D021C40A23A2938C00F59ED0 /* GenericAutofillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D021C40923A2938C00F59ED0 /* GenericAutofillerTests.swift */; };
@@ -88,6 +89,7 @@
 		BB8877D3FD09819CA53A1610 /* AutofillableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutofillableViewController.swift; sourceTree = "<group>"; };
 		BB8877DF25541B9E9C82FAFC /* ExampleListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleListViewController.xib; sourceTree = "<group>"; };
 		BB88782A5F01B98038A17615 /* SuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		BB8878673CEE4520952F2BA9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB88786F523A9516A81B6E10 /* SuccessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuccessViewController.xib; sourceTree = "<group>"; };
 		BB8878AD6FD6289E05B5B766 /* ExampleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleListViewController.swift; sourceTree = "<group>"; };
 		BB887A8D797702394D663E86 /* ImplicitFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsViewController.swift; sourceTree = "<group>"; };
@@ -106,7 +108,6 @@
 		D06080BD2395C16900643D02 /* AutofillerExamples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutofillerExamples.entitlements; sourceTree = "<group>"; };
 		D0D53C57238C390A008A7137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0D53C5E238C390C008A7137 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D0D53C61238C390C008A7137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0D53C63238C390C008A7137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0DF30922395C76B0040388E /* Autofiller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Autofiller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DF30942395C76B0040388E /* Autofiller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Autofiller.h; sourceTree = "<group>"; };
@@ -250,8 +251,8 @@
 				BB887FDCADCF3D913948C4F0 /* Examples */,
 				D0D53C5E238C390C008A7137 /* Images.xcassets */,
 				D0D53C63238C390C008A7137 /* Info.plist */,
-				D0D53C60238C390C008A7137 /* LaunchScreen.storyboard */,
 				BB887337830E92152185F34C /* SuccessViewController */,
+				BB8878673CEE4520952F2BA9 /* LaunchScreen.storyboard */,
 			);
 			path = AutofillerExamples;
 			sourceTree = "<group>";
@@ -401,7 +402,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = D0D53C4B238C390A008A7137;
 			productRefGroup = D0D53C55238C390A008A7137 /* Products */;
@@ -433,6 +433,7 @@
 				D07DD2C22396B974007D6FD0 /* Images.xcassets in Resources */,
 				D06080B52395C13E00643D02 /* ExampleTableViewCell.xib in Resources */,
 				D06080B32395C13E00643D02 /* ExampleListViewController.xib in Resources */,
+				BB88732E168A0951B5E41AB0 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,17 +582,6 @@
 			targetProxy = D0DF30972395C76B0040388E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D0D53C60238C390C008A7137 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0D53C61238C390C008A7137 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D021C40F23A2938C00F59ED0 /* Debug */ = {

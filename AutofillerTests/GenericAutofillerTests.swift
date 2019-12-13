@@ -2,7 +2,7 @@
 //  AutofillerTests.swift
 //  AutofillerTests
 //
-//  Created by justin on 12/12/2019.
+//  Created by Igor Djachenko on 12/12/2019.
 //  Copyright © 2019 djachenko. All rights reserved.
 //
 

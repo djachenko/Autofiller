@@ -56,12 +56,12 @@ public class Autofiller {
             return
         }
 
-        fields.forEach { view in
-            let viewConstraints = view.allExternalConstraints()
+        fields.forEach { field in
+            let fieldConstraints = field.allExternalConstraints()
 
-            commonView.addSubview(view)
+            commonView.addSubview(field)
 
-            let newConstraints = commonConstraints.map { old in
+            let newConstraints = fieldConstraints.map { old in
                 NSLayoutConstraint(item: old.firstItem as Any,
                         attribute: old.firstAttribute,
                         relatedBy: old.relation,
@@ -75,7 +75,7 @@ public class Autofiller {
                 constraint.isActive = true
             }
 
-            commonConstraints.forEach { constraint in
+            fieldConstraints.forEach { constraint in
                 constraint.isActive = false
             }
         }

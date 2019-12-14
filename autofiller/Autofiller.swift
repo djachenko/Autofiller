@@ -59,15 +59,6 @@ public class Autofiller {
         fields.forEach { view in
             let viewConstraints = view.allExternalConstraints()
 
-            let commonConstraints = viewConstraints.filter { constraint in
-                guard let firstItem = constraint.firstItem as? UIView,
-                      let secondItem = constraint.secondItem as? UIView else {
-                    return false
-                }
-
-                return firstItem == view || secondItem == view
-            }
-
             commonView.addSubview(view)
 
             let newConstraints = commonConstraints.map { old in

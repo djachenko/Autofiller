@@ -43,6 +43,10 @@ class GenericAutofillerTests: XCTestCase {
     }
 
     override class var defaultTestSuite: XCTestSuite {
-        return XCTestSuite(name: "Generic tests excluded")
+        if self == GenericAutofillerTests.self {
+            return XCTestSuite(name: "Generic tests excluded")
+        }
+
+        return super.defaultTestSuite
     }
 }

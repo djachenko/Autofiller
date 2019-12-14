@@ -10,8 +10,4 @@ class NestedFieldsAutofillerTests: GenericAutofillerTests {
     override func createVC() -> AutofillableViewController {
         return NestedFieldsViewController(autofillEnabled: true)
     }
-
-    override class var defaultTestSuite: XCTestSuite {
-        return XCTestSuite(forTestCaseClass: self)
-    }
 }

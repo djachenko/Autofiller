@@ -1,6 +1,6 @@
 //
 // Created by Igor Djachenko on 13/12/2019.
-// Copyright (c) 2019 djachenko. All rights reserved.
+// Copyright (c) 2019 justin. All rights reserved.
 //
 
 import XCTest

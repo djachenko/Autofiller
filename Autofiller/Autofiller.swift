@@ -1,6 +1,6 @@
 //
 // Created by Igor Djachenko on 2019-11-27.
-// Copyright (c) 2019 djachenko. All rights reserved.
+// Copyright (c) 2019 justin. All rights reserved.
 //
 
 import Foundation
@@ -58,15 +58,6 @@ public class Autofiller {
 
         fields.forEach { view in
             let viewConstraints = view.allExternalConstraints()
-
-            let commonConstraints = viewConstraints.filter { constraint in
-                guard let firstItem = constraint.firstItem as? UIView,
-                      let secondItem = constraint.secondItem as? UIView else {
-                    return false
-                }
-
-                return firstItem == view || secondItem == view
-            }
 
             commonView.addSubview(view)
 

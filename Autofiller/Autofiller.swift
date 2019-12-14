@@ -1,11 +1,12 @@
 //
-// Created by justin on 2019-11-27.
-// Copyright (c) 2019 djachenko. All rights reserved.
+// Created by Igor Djachenko on 2019-11-27.
+// Copyright (c) 2019 justin. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
+@available(iOS 11, *)
 public class Autofiller {
     public static func connectFields(login: UITextField, password: UITextField) {
         login.textContentType = .username
@@ -55,21 +56,12 @@ public class Autofiller {
             return
         }
 
-        fields.forEach { view in
-            let viewConstraints = view.allExternalConstraints()
+        fields.forEach { field in
+            let fieldConstraints = field.allExternalConstraints()
 
-            let commonConstraints = viewConstraints.filter { constraint in
-                guard let firstItem = constraint.firstItem as? UIView,
-                      let secondItem = constraint.secondItem as? UIView else {
-                    return false
-                }
+            commonView.addSubview(field)
 
-                return firstItem == view || secondItem == view
-            }
-
-            commonView.addSubview(view)
-
-            let newConstraints = commonConstraints.map { old in
+            let newConstraints = fieldConstraints.map { old in
                 NSLayoutConstraint(item: old.firstItem as Any,
                         attribute: old.firstAttribute,
                         relatedBy: old.relation,
@@ -83,7 +75,7 @@ public class Autofiller {
                 constraint.isActive = true
             }
 
-            commonConstraints.forEach { constraint in
+            fieldConstraints.forEach { constraint in
                 constraint.isActive = false
             }
         }

@@ -37,8 +37,7 @@ extension UIView {
                 if let first = constraint.firstItem as? UIView, first == self {
                     constraints.append(constraint)
                 }
-
-                if let second = constraint.secondItem as? UIView, second == self {
+                else if let second = constraint.secondItem as? UIView, second == self {
                     constraints.append(constraint)
                 }
             }

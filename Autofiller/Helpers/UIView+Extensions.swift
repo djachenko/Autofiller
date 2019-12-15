@@ -26,6 +26,23 @@ extension UIView {
         return testView
     }
 
+    //this is only for debug purposes
+    func hierarchy() -> [UIView] {
+        var hierarchy = [UIView]()
+        var view: UIView? = self
+
+        while true {
+            guard let _view = view else {
+                break
+            }
+
+            hierarchy.append(_view)
+            view = _view.superview
+        }
+
+        return hierarchy
+    }
+
     func allExternalConstraints() -> [NSLayoutConstraint] {
         var constraints = [NSLayoutConstraint]()
 

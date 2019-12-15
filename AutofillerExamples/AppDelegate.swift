@@ -18,8 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let exampleVCTypes = [
             ImplicitFieldsViewController.self,
-            NestedFieldsViewController.self,
-            TableFormViewController.self
+            NestedFieldsViewController.self
         ]
 
         let exampleListVC = ExampleListViewController(examples: exampleVCTypes)

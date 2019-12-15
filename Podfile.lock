@@ -1,20 +1,13 @@
 PODS:
   - Autofiller (0.0.1)
-  - Reusable (4.1.0):
-    - Reusable/Storyboard (= 4.1.0)
-    - Reusable/View (= 4.1.0)
-  - Reusable/Storyboard (4.1.0)
-  - Reusable/View (4.1.0)
   - TableKit (2.10.0)
 
 DEPENDENCIES:
   - Autofiller (from `.`)
-  - Reusable
   - TableKit
 
 SPEC REPOS:
   trunk:
-    - Reusable
     - TableKit
 
 EXTERNAL SOURCES:
@@ -23,9 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Autofiller: 3b9bc933f464448a5a6978b736f8adf899d7a0b4
-  Reusable: 82be188f29d96dc5eff0db7b2393bcc08d2cdd5b
   TableKit: 65645d0dd786e21dc61464da59ad770c60a07282
 
-PODFILE CHECKSUM: 769ae0b96ba341b69da723d0b16ec3bbc9b7c2f1
+PODFILE CHECKSUM: f5974193e95177de5931ba26746624a7f06b7af1
 
 COCOAPODS: 1.8.4

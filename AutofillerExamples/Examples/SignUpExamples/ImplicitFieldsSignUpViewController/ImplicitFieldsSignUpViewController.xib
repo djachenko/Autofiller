@@ -12,7 +12,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImplicitFieldsSignUpViewController" customModule="AutofillerExamples" customModuleProvider="target">
             <connections>
+                <outlet property="confirmPasswordField" destination="udT-b0-y2M" id="Xie-nz-zCn"/>
                 <outlet property="loginField" destination="Gra-Lk-xFd" id="hna-zD-Yh3"/>
+                <outlet property="newPasswordField" destination="VyM-zz-qRA" id="URg-Di-AxK"/>
                 <outlet property="view" destination="iN0-l3-epB" id="CcV-Ln-aO7"/>
             </connections>
         </placeholder>

@@ -25,10 +25,9 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="DmT-64-4ca" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="bJz-rc-ueY"/>
-                <constraint firstItem="DmT-64-4ca" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="e1V-c1-bYB"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="DmT-64-4ca" secondAttribute="trailing" id="iN6-Vv-kOD"/>
-                <constraint firstItem="DmT-64-4ca" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="r0i-kB-2aX"/>
+                <constraint firstItem="DmT-64-4ca" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="WTh-FM-zQm"/>
+                <constraint firstItem="DmT-64-4ca" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="uPd-2h-hOX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="DmT-64-4ca" secondAttribute="trailing" id="vUS-Oa-lPY"/>
             </constraints>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>

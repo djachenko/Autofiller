@@ -8,7 +8,7 @@ import Foundation
 import UIKit
 import Reusable
 
-class TableFormFieldCell: UITableViewCell, NibLoadable {
+class TableFormFieldCell: UITableViewCell, NibReusable {
     @IBOutlet private(set) weak var textField: UITextField!
 
     func set(placeholder: String) {

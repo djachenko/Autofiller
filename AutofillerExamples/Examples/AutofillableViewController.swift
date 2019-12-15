@@ -48,8 +48,14 @@ class AutofillableViewController: BaseViewController {
         tabBarItem = item
     }
 
-    private func updateAutofill() {
-        Autofiller.connectFields(login: loginField, password: passwordField)
+    func updateAutofill() {
+        guard loginField != nil && passwordField != nil else {
+            return
+        }
+
+        if autofillEnabled {
+            Autofiller.connectFields(login: loginField, password: passwordField)
+        }
     }
 
     @IBAction func logIn() {

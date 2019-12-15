@@ -11,32 +11,21 @@ import UIKit
 class TableFormViewController: AutofillableViewController {
     @IBOutlet private weak var tableView: UITableView!
 
-    var cells = [UITableViewCell]()
-
     override class var name: String {
         return "Table-based form"
     }
 
     override func viewDidLoad() {
-        let loginCell = TableFormFieldCell.loadFromNib()
-        let passwordCell = TableFormFieldCell.loadFromNib()
-        let buttonCell = TableFormButtonCell.loadFromNib()
-
-
-        loginField = loginCell.textField
-        passwordField = passwordCell.textField
-
         super.viewDidLoad()
 
-        loginCell.set(placeholder: "login")
-        passwordCell.set(placeholder: "password")
-        buttonCell.delegate = self
+        tableView.register(cellType: TableFormFieldCell.self)
+        tableView.register(cellType: TableFormButtonCell.self)
+    }
 
-        cells = [
-            loginCell,
-            passwordCell,
-            buttonCell
-        ]
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+
+        updateAutofill()
     }
 }
 
@@ -46,7 +35,32 @@ extension TableFormViewController: UITableViewDataSource {
     }
 
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return cells[indexPath.row]
+        var cell: UITableViewCell!
+
+        switch indexPath.row {
+            case 0:
+                let loginCell = tableView.dequeueReusableCell(for: indexPath) as TableFormFieldCell
+
+                loginField = loginCell.textField
+
+                cell = loginCell
+            case 1:
+                let passwordCell = tableView.dequeueReusableCell(for: indexPath) as TableFormFieldCell
+
+                passwordField = passwordCell.textField
+
+                cell = passwordCell
+            case 2:
+                let buttonCell = tableView.dequeueReusableCell(for: indexPath) as TableFormButtonCell
+
+                buttonCell.delegate = self
+
+                cell = buttonCell
+            default:
+                assertionFailure("Table row range exceeded")
+        }
+
+        return cell
     }
 }
 

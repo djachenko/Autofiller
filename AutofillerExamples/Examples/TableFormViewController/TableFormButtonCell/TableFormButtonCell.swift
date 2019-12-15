@@ -12,7 +12,7 @@ protocol TableFormButtonCellDelegate: class {
     func tappedButtonCell()
 }
 
-class TableFormButtonCell: UITableViewCell, NibLoadable {
+class TableFormButtonCell: UITableViewCell, NibReusable {
     weak var delegate: TableFormButtonCellDelegate?
 
     func configure(with delegate: TableFormButtonCellDelegate) {

@@ -10,8 +10,4 @@ class ImplicitFieldsAutofillerTests: GenericAutofillerTests {
     override func createVC() -> AutofillableViewController {
         return ImplicitFieldsViewController(autofillEnabled: true)
     }
-
-    override class var defaultTestSuite: XCTestSuite {
-        return XCTestSuite(forTestCaseClass: self)
-    }
 }

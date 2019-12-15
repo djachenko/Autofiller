@@ -8,7 +8,7 @@ import Foundation
 import UIKit
 
 
-class TableFormViewController: AutofillableViewController {
+class TableFormSignInViewController: SignInAutofillViewController {
     @IBOutlet private weak var tableView: UITableView!
 
     override class var name: String {
@@ -29,7 +29,7 @@ class TableFormViewController: AutofillableViewController {
     }
 }
 
-extension TableFormViewController: UITableViewDataSource {
+extension TableFormSignInViewController: UITableViewDataSource {
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 3
     }
@@ -64,8 +64,8 @@ extension TableFormViewController: UITableViewDataSource {
     }
 }
 
-extension TableFormViewController: TableFormButtonCellDelegate {
+extension TableFormSignInViewController: TableFormButtonCellDelegate {
     internal func tappedButtonCell() {
-        logIn()
+        next()
     }
 }

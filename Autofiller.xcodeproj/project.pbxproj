@@ -9,17 +9,29 @@
 /* Begin PBXBuildFile section */
 		13252BD50A2111D6F303B08E /* Pods_AutofillerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E74F0E46A49E153DE3BFC7 /* Pods_AutofillerTests.framework */; };
 		6E2E3F9AE5BCEDBC8A606D9D /* Pods_AutofillerExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FED3BC46C139ED95493981 /* Pods_AutofillerExamples.framework */; };
-		BB88710BD195C5E6849419FD /* TableFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887371FC377AFBB8054975 /* TableFormViewController.swift */; };
+		BB8870AB7DE0AD3F57661E5C /* TableFormButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887A56CC3FBCF7A49C12F4 /* TableFormButtonCell.xib */; };
+		BB887150E763F998A26D2597 /* ImplicitFieldsSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887AD18785098EA2F6069B /* ImplicitFieldsSignUpViewController.swift */; };
+		BB887158B4AE4DDA28BB8B2B /* TableFormFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB8878BD1AE0F99B925B5D3F /* TableFormFieldCell.xib */; };
+		BB8871934A24E863B6323D22 /* SignUpAutofillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887D3FEE17DDEE6B0A0392 /* SignUpAutofillViewController.swift */; };
 		BB8871A8654F683495C7FE7A /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887297D321420763E1146F /* Array+Extensions.swift */; };
-		BB8872E761AE0177061AEA61 /* TableFormButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB8873FB1B83BFFE196CC3B3 /* TableFormButtonCell.xib */; };
-		BB88730333336AC3F6A85FAE /* ImplicitFieldsAutofillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887C498836787B0E155304 /* ImplicitFieldsAutofillerTests.swift */; };
+		BB887245367C33B8383A12DB /* TableFormButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8876CE616A33AF6B7D9D6B /* TableFormButtonCell.swift */; };
+		BB8872698CA2A4886C69BCC0 /* ImplicitFieldsSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887DD332DF84862485F389 /* ImplicitFieldsSignInViewController.swift */; };
+		BB88730333336AC3F6A85FAE /* ImplicitFieldsSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887C498836787B0E155304 /* ImplicitFieldsSignInViewController.swift */; };
 		BB88732E168A0951B5E41AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8878673CEE4520952F2BA9 /* LaunchScreen.storyboard */; };
+		BB8874417D2CA0ACA2E65E21 /* TableFormFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887715520E7AC3F6907149 /* TableFormFieldCell.swift */; };
+		BB88744C490E573370C68870 /* NestedFieldsSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8872BB29BF50E419A4043E /* NestedFieldsSignUpViewController.swift */; };
+		BB8875FF4A23115013EDEC12 /* TableFormSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB88711ACF7C354C3C704F52 /* TableFormSignUpViewController.xib */; };
+		BB88763425A37FD71A973EFE /* TableFormSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887F24745C3824350E7F37 /* TableFormSignUpViewController.swift */; };
+		BB88768DA998B499B1E6D636 /* TableFormSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887A273971B39A7BA0FFE6 /* TableFormSignInViewController.xib */; };
 		BB8876AD70B883C3CE50B920 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887FB64E0696BEA98685DB /* UIView+Extensions.swift */; };
-		BB88774E4043396F9CEB7A41 /* TableFormFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887D79A53C4D01500AA13B /* TableFormFieldCell.xib */; };
-		BB8879BAC805E959FEA5CE71 /* NestedFieldsAutofillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887644475BE95E442801A7 /* NestedFieldsAutofillerTests.swift */; };
-		BB887B50A93972BB48642CBD /* TableFormFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887EDADAD37C136E8B3ACC /* TableFormFieldCell.swift */; };
-		BB887EEED5EF89C0079174F9 /* TableFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB8872200BF95007A6D7EF0F /* TableFormViewController.xib */; };
-		BB887FEEB76FFB63E97A7A92 /* TableFormButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887F102AB3470B0A508CFE /* TableFormButtonCell.swift */; };
+		BB8878E66755D9405F92580A /* NestedFieldsSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB88725DED0AE48271C24CD3 /* NestedFieldsSignUpViewController.xib */; };
+		BB88797D06F359DAC01A0C3D /* TableFormSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8870F72CC5E67CE53E2411 /* TableFormSignInViewController.swift */; };
+		BB8879BAC805E959FEA5CE71 /* NestedFieldsSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887644475BE95E442801A7 /* NestedFieldsSignInViewController.swift */; };
+		BB887AE72A491133D21DFA29 /* NestedFieldsSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887A403E5ACE1348372488 /* NestedFieldsSignInViewController.swift */; };
+		BB887C3AC8F4142502B1DD18 /* NestedFieldsSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887F32D51368D1C33F2B30 /* NestedFieldsSignInViewController.xib */; };
+		BB887D0E154C4CF1A3E4FCAF /* ImplicitFieldsSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887EEDFF1F045B0842C8E9 /* ImplicitFieldsSignUpViewController.xib */; };
+		BB887F7290E7E97BC4D0D1A5 /* SignInAutofillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887202AF2CE33F715AC048 /* SignInAutofillViewController.swift */; };
+		BB887FA3E391877B541AA314 /* ImplicitFieldsSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887EC7C2B7D17A7294380D /* ImplicitFieldsSignInViewController.xib */; };
 		D021C40A23A2938C00F59ED0 /* GenericAutofillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D021C40923A2938C00F59ED0 /* GenericAutofillerTests.swift */; };
 		D06080B02395C13E00643D02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D53C57238C390A008A7137 /* AppDelegate.swift */; };
 		D06080B12395C13E00643D02 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887004D7BCACEA8CEFD20B /* BaseViewController.swift */; };
@@ -28,10 +40,6 @@
 		D06080B42395C13E00643D02 /* ExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887FBA3A96224D3002747C /* ExampleTableViewCell.swift */; };
 		D06080B52395C13E00643D02 /* ExampleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887BCAF7F4B45BB2C115D9 /* ExampleTableViewCell.xib */; };
 		D06080B62395C13E00643D02 /* AutofillableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8877D3FD09819CA53A1610 /* AutofillableViewController.swift */; };
-		D06080B72395C13E00643D02 /* ImplicitFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887A8D797702394D663E86 /* ImplicitFieldsViewController.swift */; };
-		D06080B82395C13E00643D02 /* ImplicitFieldsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB8873299648F3E7894F638B /* ImplicitFieldsViewController.xib */; };
-		D06080B92395C13E00643D02 /* NestedFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB88746AE3CE1B45671C0303 /* NestedFieldsViewController.swift */; };
-		D06080BA2395C13E00643D02 /* NestedFieldsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887688510569AF58967C1F /* NestedFieldsViewController.xib */; };
 		D06080BB2395C13E00643D02 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB88782A5F01B98038A17615 /* SuccessViewController.swift */; };
 		D06080BC2395C13E00643D02 /* SuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB88786F523A9516A81B6E10 /* SuccessViewController.xib */; };
 		D07DD2C22396B974007D6FD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D53C5E238C390C008A7137 /* Images.xcassets */; };
@@ -69,28 +77,36 @@
 		BB8870001E84D001D36EC5D2 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = file.yml; path = .travis.yml; sourceTree = "<group>"; };
 		BB887004D7BCACEA8CEFD20B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		BB8870748A382E670C3AF8AB /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		BB8872200BF95007A6D7EF0F /* TableFormViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableFormViewController.xib; sourceTree = "<group>"; };
+		BB8870F72CC5E67CE53E2411 /* TableFormSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableFormSignInViewController.swift; sourceTree = "<group>"; };
+		BB88711ACF7C354C3C704F52 /* TableFormSignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableFormSignUpViewController.xib; sourceTree = "<group>"; };
+		BB887202AF2CE33F715AC048 /* SignInAutofillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInAutofillViewController.swift; sourceTree = "<group>"; };
+		BB88725DED0AE48271C24CD3 /* NestedFieldsSignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedFieldsSignUpViewController.xib; sourceTree = "<group>"; };
 		BB887297D321420763E1146F /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
-		BB8873299648F3E7894F638B /* ImplicitFieldsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImplicitFieldsViewController.xib; sourceTree = "<group>"; };
-		BB887371FC377AFBB8054975 /* TableFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableFormViewController.swift; sourceTree = "<group>"; };
-		BB8873FB1B83BFFE196CC3B3 /* TableFormButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableFormButtonCell.xib; sourceTree = "<group>"; };
-		BB88746AE3CE1B45671C0303 /* NestedFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsViewController.swift; sourceTree = "<group>"; };
-		BB887644475BE95E442801A7 /* NestedFieldsAutofillerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsAutofillerTests.swift; sourceTree = "<group>"; };
-		BB887688510569AF58967C1F /* NestedFieldsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedFieldsViewController.xib; sourceTree = "<group>"; };
+		BB8872BB29BF50E419A4043E /* NestedFieldsSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsSignUpViewController.swift; sourceTree = "<group>"; };
+		BB887644475BE95E442801A7 /* NestedFieldsSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsSignInViewController.swift; sourceTree = "<group>"; };
+		BB8876CE616A33AF6B7D9D6B /* TableFormButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableFormButtonCell.swift; sourceTree = "<group>"; };
+		BB887715520E7AC3F6907149 /* TableFormFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableFormFieldCell.swift; sourceTree = "<group>"; };
 		BB8877D3FD09819CA53A1610 /* AutofillableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutofillableViewController.swift; sourceTree = "<group>"; };
 		BB8877DF25541B9E9C82FAFC /* ExampleListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleListViewController.xib; sourceTree = "<group>"; };
 		BB88782A5F01B98038A17615 /* SuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 		BB8878673CEE4520952F2BA9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB88786F523A9516A81B6E10 /* SuccessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuccessViewController.xib; sourceTree = "<group>"; };
 		BB8878AD6FD6289E05B5B766 /* ExampleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleListViewController.swift; sourceTree = "<group>"; };
-		BB887A8D797702394D663E86 /* ImplicitFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsViewController.swift; sourceTree = "<group>"; };
+		BB8878BD1AE0F99B925B5D3F /* TableFormFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableFormFieldCell.xib; sourceTree = "<group>"; };
+		BB887A273971B39A7BA0FFE6 /* TableFormSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableFormSignInViewController.xib; sourceTree = "<group>"; };
+		BB887A403E5ACE1348372488 /* NestedFieldsSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsSignInViewController.swift; sourceTree = "<group>"; };
+		BB887A56CC3FBCF7A49C12F4 /* TableFormButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableFormButtonCell.xib; sourceTree = "<group>"; };
+		BB887AD18785098EA2F6069B /* ImplicitFieldsSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsSignUpViewController.swift; sourceTree = "<group>"; };
 		BB887BCAF7F4B45BB2C115D9 /* ExampleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleTableViewCell.xib; sourceTree = "<group>"; };
 		BB887BCD836EFB0C867C361F /* Autofiller.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = Autofiller.podspec; sourceTree = "<group>"; };
-		BB887C498836787B0E155304 /* ImplicitFieldsAutofillerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsAutofillerTests.swift; sourceTree = "<group>"; };
+		BB887C498836787B0E155304 /* ImplicitFieldsSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsSignInViewController.swift; sourceTree = "<group>"; };
 		BB887CE791322F583084937A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		BB887D79A53C4D01500AA13B /* TableFormFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableFormFieldCell.xib; sourceTree = "<group>"; };
-		BB887EDADAD37C136E8B3ACC /* TableFormFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableFormFieldCell.swift; sourceTree = "<group>"; };
-		BB887F102AB3470B0A508CFE /* TableFormButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableFormButtonCell.swift; sourceTree = "<group>"; };
+		BB887D3FEE17DDEE6B0A0392 /* SignUpAutofillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpAutofillViewController.swift; sourceTree = "<group>"; };
+		BB887DD332DF84862485F389 /* ImplicitFieldsSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsSignInViewController.swift; sourceTree = "<group>"; };
+		BB887EC7C2B7D17A7294380D /* ImplicitFieldsSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImplicitFieldsSignInViewController.xib; sourceTree = "<group>"; };
+		BB887EEDFF1F045B0842C8E9 /* ImplicitFieldsSignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImplicitFieldsSignUpViewController.xib; sourceTree = "<group>"; };
+		BB887F24745C3824350E7F37 /* TableFormSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableFormSignUpViewController.swift; sourceTree = "<group>"; };
+		BB887F32D51368D1C33F2B30 /* NestedFieldsSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedFieldsSignInViewController.xib; sourceTree = "<group>"; };
 		BB887FB64E0696BEA98685DB /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		BB887FBA3A96224D3002747C /* ExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewCell.swift; sourceTree = "<group>"; };
 		BD0064BC13CC33EA333753E4 /* Pods-AutofillerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerTests.release.xcconfig"; path = "Target Support Files/Pods-AutofillerTests/Pods-AutofillerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,13 +173,13 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		BB8870EA91CC58E4E0F1AFB2 /* TableFormButtonCell */ = {
+		BB8870C2246EF116002F0494 /* ImplicitFieldsSignUpViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BB887F102AB3470B0A508CFE /* TableFormButtonCell.swift */,
-				BB8873FB1B83BFFE196CC3B3 /* TableFormButtonCell.xib */,
+				BB887AD18785098EA2F6069B /* ImplicitFieldsSignUpViewController.swift */,
+				BB887EEDFF1F045B0842C8E9 /* ImplicitFieldsSignUpViewController.xib */,
 			);
-			path = TableFormButtonCell;
+			path = ImplicitFieldsSignUpViewController;
 			sourceTree = "<group>";
 		};
 		BB887337830E92152185F34C /* SuccessViewController */ = {
@@ -194,42 +210,98 @@
 			path = ExampleListViewController;
 			sourceTree = "<group>";
 		};
-		BB8875D8966A50CFFF594911 /* TableFormFieldCell */ = {
+		BB8874134BFBC88EE78C9BD4 /* TableFormButtonCell */ = {
 			isa = PBXGroup;
 			children = (
-				BB887EDADAD37C136E8B3ACC /* TableFormFieldCell.swift */,
-				BB887D79A53C4D01500AA13B /* TableFormFieldCell.xib */,
+				BB8876CE616A33AF6B7D9D6B /* TableFormButtonCell.swift */,
+				BB887A56CC3FBCF7A49C12F4 /* TableFormButtonCell.xib */,
 			);
-			path = TableFormFieldCell;
+			path = TableFormButtonCell;
 			sourceTree = "<group>";
 		};
-		BB887D8FF6E3C75B4726CA1C /* NestedFieldsViewController */ = {
+		BB88754BFC3683F4814E0103 /* TableFormViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BB88746AE3CE1B45671C0303 /* NestedFieldsViewController.swift */,
-				BB887688510569AF58967C1F /* NestedFieldsViewController.xib */,
-			);
-			path = NestedFieldsViewController;
-			sourceTree = "<group>";
-		};
-		BB887ED2DFF96959BE91A0D9 /* TableFormViewController */ = {
-			isa = PBXGroup;
-			children = (
-				BB8870EA91CC58E4E0F1AFB2 /* TableFormButtonCell */,
-				BB8875D8966A50CFFF594911 /* TableFormFieldCell */,
-				BB887371FC377AFBB8054975 /* TableFormViewController.swift */,
-				BB8872200BF95007A6D7EF0F /* TableFormViewController.xib */,
+				BB887F24745C3824350E7F37 /* TableFormSignUpViewController.swift */,
+				BB88711ACF7C354C3C704F52 /* TableFormSignUpViewController.xib */,
 			);
 			path = TableFormViewController;
 			sourceTree = "<group>";
 		};
-		BB887EE1CD980B64722722D5 /* ImplicitFieldsViewController */ = {
+		BB8875765202ABE495FA774C /* NestedFieldsSignInViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BB887A8D797702394D663E86 /* ImplicitFieldsViewController.swift */,
-				BB8873299648F3E7894F638B /* ImplicitFieldsViewController.xib */,
+				BB887A403E5ACE1348372488 /* NestedFieldsSignInViewController.swift */,
+				BB887F32D51368D1C33F2B30 /* NestedFieldsSignInViewController.xib */,
 			);
-			path = ImplicitFieldsViewController;
+			path = NestedFieldsSignInViewController;
+			sourceTree = "<group>";
+		};
+		BB8875E0801D9CD265F1ED74 /* ImplicitFieldsSignInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB887DD332DF84862485F389 /* ImplicitFieldsSignInViewController.swift */,
+				BB887EC7C2B7D17A7294380D /* ImplicitFieldsSignInViewController.xib */,
+			);
+			path = ImplicitFieldsSignInViewController;
+			sourceTree = "<group>";
+		};
+		BB8879A90EBAD5D2190289A3 /* SignUpExamples */ = {
+			isa = PBXGroup;
+			children = (
+				BB8870C2246EF116002F0494 /* ImplicitFieldsSignUpViewController */,
+				BB887C23494557401E6CD358 /* NestedFieldsSignUpViewController */,
+				BB887D3FEE17DDEE6B0A0392 /* SignUpAutofillViewController.swift */,
+				BB88754BFC3683F4814E0103 /* TableFormViewController */,
+			);
+			path = SignUpExamples;
+			sourceTree = "<group>";
+		};
+		BB887C23494557401E6CD358 /* NestedFieldsSignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB8872BB29BF50E419A4043E /* NestedFieldsSignUpViewController.swift */,
+				BB88725DED0AE48271C24CD3 /* NestedFieldsSignUpViewController.xib */,
+			);
+			path = NestedFieldsSignUpViewController;
+			sourceTree = "<group>";
+		};
+		BB887C5BB6C768B97418E50C /* TableFormViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB8870F72CC5E67CE53E2411 /* TableFormSignInViewController.swift */,
+				BB887A273971B39A7BA0FFE6 /* TableFormSignInViewController.xib */,
+			);
+			path = TableFormViewController;
+			sourceTree = "<group>";
+		};
+		BB887C72F6CD47A9A92A9B6A /* TableFormFieldCell */ = {
+			isa = PBXGroup;
+			children = (
+				BB887715520E7AC3F6907149 /* TableFormFieldCell.swift */,
+				BB8878BD1AE0F99B925B5D3F /* TableFormFieldCell.xib */,
+			);
+			path = TableFormFieldCell;
+			sourceTree = "<group>";
+		};
+		BB887D950EF983557119693E /* SharedViews */ = {
+			isa = PBXGroup;
+			children = (
+				BB8874134BFBC88EE78C9BD4 /* TableFormButtonCell */,
+				BB887C72F6CD47A9A92A9B6A /* TableFormFieldCell */,
+			);
+			path = SharedViews;
+			sourceTree = "<group>";
+		};
+		BB887E9ADF225353C3916540 /* SignInExamples */ = {
+			isa = PBXGroup;
+			children = (
+				BB8875E0801D9CD265F1ED74 /* ImplicitFieldsSignInViewController */,
+				BB8875765202ABE495FA774C /* NestedFieldsSignInViewController */,
+				BB887202AF2CE33F715AC048 /* SignInAutofillViewController.swift */,
+				BB887C5BB6C768B97418E50C /* TableFormViewController */,
+			);
+			path = SignInExamples;
 			sourceTree = "<group>";
 		};
 		BB887FD907DDAB0E22A02323 /* Helpers */ = {
@@ -245,9 +317,9 @@
 			isa = PBXGroup;
 			children = (
 				BB8877D3FD09819CA53A1610 /* AutofillableViewController.swift */,
-				BB887EE1CD980B64722722D5 /* ImplicitFieldsViewController */,
-				BB887D8FF6E3C75B4726CA1C /* NestedFieldsViewController */,
-				BB887ED2DFF96959BE91A0D9 /* TableFormViewController */,
+				BB887D950EF983557119693E /* SharedViews */,
+				BB887E9ADF225353C3916540 /* SignInExamples */,
+				BB8879A90EBAD5D2190289A3 /* SignUpExamples */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -257,8 +329,8 @@
 			children = (
 				D021C40923A2938C00F59ED0 /* GenericAutofillerTests.swift */,
 				D021C40B23A2938C00F59ED0 /* Info.plist */,
-				BB887644475BE95E442801A7 /* NestedFieldsAutofillerTests.swift */,
-				BB887C498836787B0E155304 /* ImplicitFieldsAutofillerTests.swift */,
+				BB887644475BE95E442801A7 /* NestedFieldsSignInViewController.swift */,
+				BB887C498836787B0E155304 /* ImplicitFieldsSignInViewController.swift */,
 			);
 			path = AutofillerTests;
 			sourceTree = "<group>";
@@ -447,16 +519,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D06080BA2395C13E00643D02 /* NestedFieldsViewController.xib in Resources */,
-				D06080B82395C13E00643D02 /* ImplicitFieldsViewController.xib in Resources */,
 				D06080BC2395C13E00643D02 /* SuccessViewController.xib in Resources */,
 				D07DD2C22396B974007D6FD0 /* Images.xcassets in Resources */,
 				D06080B52395C13E00643D02 /* ExampleTableViewCell.xib in Resources */,
 				D06080B32395C13E00643D02 /* ExampleListViewController.xib in Resources */,
 				BB88732E168A0951B5E41AB0 /* LaunchScreen.storyboard in Resources */,
-				BB88774E4043396F9CEB7A41 /* TableFormFieldCell.xib in Resources */,
-				BB8872E761AE0177061AEA61 /* TableFormButtonCell.xib in Resources */,
-				BB887EEED5EF89C0079174F9 /* TableFormViewController.xib in Resources */,
+				BB88768DA998B499B1E6D636 /* TableFormSignInViewController.xib in Resources */,
+				BB887FA3E391877B541AA314 /* ImplicitFieldsSignInViewController.xib in Resources */,
+				BB887C3AC8F4142502B1DD18 /* NestedFieldsSignInViewController.xib in Resources */,
+				BB8875FF4A23115013EDEC12 /* TableFormSignUpViewController.xib in Resources */,
+				BB8878E66755D9405F92580A /* NestedFieldsSignUpViewController.xib in Resources */,
+				BB887D0E154C4CF1A3E4FCAF /* ImplicitFieldsSignUpViewController.xib in Resources */,
+				BB8870AB7DE0AD3F57661E5C /* TableFormButtonCell.xib in Resources */,
+				BB887158B4AE4DDA28BB8B2B /* TableFormFieldCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,8 +631,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D021C40A23A2938C00F59ED0 /* GenericAutofillerTests.swift in Sources */,
-				BB8879BAC805E959FEA5CE71 /* NestedFieldsAutofillerTests.swift in Sources */,
-				BB88730333336AC3F6A85FAE /* ImplicitFieldsAutofillerTests.swift in Sources */,
+				BB8879BAC805E959FEA5CE71 /* NestedFieldsSignInViewController.swift in Sources */,
+				BB88730333336AC3F6A85FAE /* ImplicitFieldsSignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,17 +640,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D06080B72395C13E00643D02 /* ImplicitFieldsViewController.swift in Sources */,
 				D06080B42395C13E00643D02 /* ExampleTableViewCell.swift in Sources */,
 				D06080B22395C13E00643D02 /* ExampleListViewController.swift in Sources */,
 				D06080B02395C13E00643D02 /* AppDelegate.swift in Sources */,
 				D06080B62395C13E00643D02 /* AutofillableViewController.swift in Sources */,
 				D06080B12395C13E00643D02 /* BaseViewController.swift in Sources */,
 				D06080BB2395C13E00643D02 /* SuccessViewController.swift in Sources */,
-				D06080B92395C13E00643D02 /* NestedFieldsViewController.swift in Sources */,
-				BB887B50A93972BB48642CBD /* TableFormFieldCell.swift in Sources */,
-				BB887FEEB76FFB63E97A7A92 /* TableFormButtonCell.swift in Sources */,
-				BB88710BD195C5E6849419FD /* TableFormViewController.swift in Sources */,
+				BB88797D06F359DAC01A0C3D /* TableFormSignInViewController.swift in Sources */,
+				BB8872698CA2A4886C69BCC0 /* ImplicitFieldsSignInViewController.swift in Sources */,
+				BB887AE72A491133D21DFA29 /* NestedFieldsSignInViewController.swift in Sources */,
+				BB887F7290E7E97BC4D0D1A5 /* SignInAutofillViewController.swift in Sources */,
+				BB88763425A37FD71A973EFE /* TableFormSignUpViewController.swift in Sources */,
+				BB88744C490E573370C68870 /* NestedFieldsSignUpViewController.swift in Sources */,
+				BB887150E763F998A26D2597 /* ImplicitFieldsSignUpViewController.swift in Sources */,
+				BB8871934A24E863B6323D22 /* SignUpAutofillViewController.swift in Sources */,
+				BB887245367C33B8383A12DB /* TableFormButtonCell.swift in Sources */,
+				BB8874417D2CA0ACA2E65E21 /* TableFormFieldCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

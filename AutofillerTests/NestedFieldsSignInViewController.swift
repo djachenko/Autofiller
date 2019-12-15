@@ -6,8 +6,8 @@
 import XCTest
 @testable import AutofillerExamples
 
-class NestedFieldsAutofillerTests: GenericAutofillerTests {
+class NestedFieldsSignInViewController: GenericAutofillerTests {
     override func createVC() -> AutofillableViewController {
-        return NestedFieldsViewController(autofillEnabled: true)
+        return NestedFieldsSignInViewController(autofillEnabled: true)
     }
 }

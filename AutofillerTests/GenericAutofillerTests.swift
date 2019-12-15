@@ -27,13 +27,13 @@ class GenericAutofillerTests: XCTestCase {
         fatalError("createVC() is not implemented")
     }
 
-    func testLoginFieldInitialized() {
-        XCTAssertNotNil(viewController.loginField)
-    }
-
-    func testPasswordFieldInitialized() {
-        XCTAssertNotNil(viewController.passwordField)
-    }
+//    func testLoginFieldInitialized() {
+//        XCTAssertNotNil(viewController.loginField)
+//    }
+//
+//    func testPasswordFieldInitialized() {
+//        XCTAssertNotNil(viewController.passwordField)
+//    }
 
     func testSameSuperview() {
         XCTAssertEqual(

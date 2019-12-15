@@ -6,8 +6,8 @@
 import XCTest
 @testable import AutofillerExamples
 
-class ImplicitFieldsAutofillerTests: GenericAutofillerTests {
+class ImplicitFieldsSignInViewController: GenericAutofillerTests {
     override func createVC() -> AutofillableViewController {
-        return ImplicitFieldsViewController(autofillEnabled: true)
+        return ImplicitFieldsSignInViewController(autofillEnabled: true)
     }
 }

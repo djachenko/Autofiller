@@ -8,9 +8,6 @@ import UIKit
 import Autofiller
 
 class AutofillableViewController: BaseViewController {
-    @IBOutlet weak var loginField: UITextField!
-    @IBOutlet weak var passwordField: UITextField!
-
     class var name: String {
         fatalError()
     }
@@ -49,16 +46,10 @@ class AutofillableViewController: BaseViewController {
     }
 
     func updateAutofill() {
-        guard loginField != nil && passwordField != nil else {
-            return
-        }
-
-        if autofillEnabled {
-            Autofiller.connectFields(login: loginField, password: passwordField)
-        }
+        fatalError("updateAutofill() not implemented")
     }
 
-    @IBAction func logIn() {
+    func next() {
         let successVC = SuccessViewController()
 
         navigationController?.pushViewController(successVC, animated: true)

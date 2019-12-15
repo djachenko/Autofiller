@@ -16,13 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
 
-        let exampleVCTypes = [
-            ImplicitFieldsViewController.self,
-            NestedFieldsViewController.self,
-            TableFormViewController.self
+        let signInVCTypes = [
+            ImplicitFieldsSignInViewController.self,
+            NestedFieldsSignInViewController.self,
+            TableFormSignInViewController.self
         ]
 
-        let exampleListVC = ExampleListViewController(examples: exampleVCTypes)
+        let signUpVCTypes = [
+            ImplicitFieldsSignUpViewController.self,
+            NestedFieldsSignUpViewController.self,
+            TableFormSignUpViewController.self
+        ]
+
+        let exampleListVC = ExampleListViewController(signInExamples: signInVCTypes, signUpExamples: signUpVCTypes)
 
         let rootController = UINavigationController(rootViewController: exampleListVC)
 

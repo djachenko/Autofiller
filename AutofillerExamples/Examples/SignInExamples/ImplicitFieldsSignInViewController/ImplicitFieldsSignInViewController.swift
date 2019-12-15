@@ -6,7 +6,7 @@
 import Foundation
 import UIKit
 
-class ImplicitFieldsViewController: AutofillableViewController {
+class ImplicitFieldsSignInViewController: SignInAutofillViewController {
     override class var name: String {
         return "Implicit fields"
     }

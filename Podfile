@@ -15,4 +15,5 @@ end
 
 target 'AutofillerTests' do
   shared_pods
+  pod 'iOSSnapshotTestCase'
 end

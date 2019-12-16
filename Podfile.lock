@@ -1,16 +1,31 @@
 PODS:
+  - Autofiller (0.0.1)
+  - iOSSnapshotTestCase (6.2.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 6.2.0)
+  - iOSSnapshotTestCase/Core (6.2.0)
+  - iOSSnapshotTestCase/SwiftSupport (6.2.0):
+    - iOSSnapshotTestCase/Core
   - TableKit (2.10.0)
 
 DEPENDENCIES:
+  - Autofiller (from `.`)
+  - iOSSnapshotTestCase
   - TableKit
 
 SPEC REPOS:
   trunk:
+    - iOSSnapshotTestCase
     - TableKit
 
+EXTERNAL SOURCES:
+  Autofiller:
+    :path: "."
+
 SPEC CHECKSUMS:
+  Autofiller: 3b9bc933f464448a5a6978b736f8adf899d7a0b4
+  iOSSnapshotTestCase: 9ab44cb5aa62b84d31847f40680112e15ec579a6
   TableKit: 65645d0dd786e21dc61464da59ad770c60a07282
 
-PODFILE CHECKSUM: bdc8b9cea4369b2e1c2db4eb3aa2dad07dcc9679
+PODFILE CHECKSUM: b7c0993246f1853670a53e654deb00267cad6d73
 
 COCOAPODS: 1.8.4

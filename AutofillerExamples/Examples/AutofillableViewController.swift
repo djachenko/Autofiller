@@ -1,6 +1,6 @@
 //
 // Created by Igor Djachenko on 2019-11-26.
-// Copyright (c) 2019 djachenko. All rights reserved.
+// Copyright (c) 2019 justin. All rights reserved.
 //
 
 import Foundation
@@ -8,8 +8,8 @@ import UIKit
 import Autofiller
 
 class AutofillableViewController: BaseViewController {
-    @IBOutlet private(set) weak var loginField: UITextField!
-    @IBOutlet private(set) weak var passwordField: UITextField!
+    @IBOutlet weak var loginField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
 
     class var name: String {
         fatalError()
@@ -48,11 +48,17 @@ class AutofillableViewController: BaseViewController {
         tabBarItem = item
     }
 
-    private func updateAutofill() {
-        Autofiller.connectFields(login: loginField, password: passwordField)
+    func updateAutofill() {
+        guard loginField != nil && passwordField != nil else {
+            return
+        }
+
+        if autofillEnabled {
+            Autofiller.connectFields(login: loginField, password: passwordField)
+        }
     }
 
-    @IBAction private func logIn() {
+    @IBAction func logIn() {
         let successVC = SuccessViewController()
 
         navigationController?.pushViewController(successVC, animated: true)

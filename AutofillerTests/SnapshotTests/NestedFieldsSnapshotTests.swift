@@ -7,7 +7,7 @@
 import Foundation
 @testable import AutofillerExamples
 
-class NestedFieldsShapshotTests: GenericSnapshotTests {
+class NestedFieldsSnapshotTests: GenericSnapshotTests {
     override func createVC(autofillEnabled: Bool) -> AutofillableViewController {
         return NestedFieldsViewController(autofillEnabled: autofillEnabled)
     }

@@ -6,7 +6,7 @@
 
 @testable import AutofillerExamples
 
-class ImplicitFieldSignUpSnapshotTests: GenericSnapshotTests {
+class ImplicitFieldsSignUpSnapshotTests: GenericSnapshotTests {
     override func createVC(autofillEnabled: Bool) -> AutofillableViewController {
         return ImplicitFieldsSignUpViewController(autofillEnabled: autofillEnabled)
     }

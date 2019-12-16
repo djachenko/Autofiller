@@ -28,7 +28,7 @@
 		BB88768DA998B499B1E6D636 /* TableFormSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887A273971B39A7BA0FFE6 /* TableFormSignInViewController.xib */; };
 		BB8876AD70B883C3CE50B920 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887FB64E0696BEA98685DB /* UIView+Extensions.swift */; };
 		BB8877B3A8DED20506CF9A95 /* NestedFieldsSignInSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887B8DD37EF86BFC802D0A /* NestedFieldsSignInSnapshotTests.swift */; };
-		BB8877D889C41E17CFAF1B55 /* ImplicitFieldSignUpSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887440B7E1BAE3DEC5C019 /* ImplicitFieldSignUpSnapshotTests.swift */; };
+		BB8877D889C41E17CFAF1B55 /* ImplicitFieldsSignUpSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887440B7E1BAE3DEC5C019 /* ImplicitFieldsSignUpSnapshotTests.swift */; };
 		BB8878B102496C9758C000EB /* ImplicitFieldsSignUpViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887E7C0BD55EDD08AF1B1C /* ImplicitFieldsSignUpViewControllerTests.swift */; };
 		BB8878E66755D9405F92580A /* NestedFieldsSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB88725DED0AE48271C24CD3 /* NestedFieldsSignUpViewController.xib */; };
 		BB88797D06F359DAC01A0C3D /* TableFormSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8870F72CC5E67CE53E2411 /* TableFormSignInViewController.swift */; };
@@ -95,7 +95,7 @@
 		BB88725DED0AE48271C24CD3 /* NestedFieldsSignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedFieldsSignUpViewController.xib; sourceTree = "<group>"; };
 		BB887297D321420763E1146F /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		BB8872BB29BF50E419A4043E /* NestedFieldsSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsSignUpViewController.swift; sourceTree = "<group>"; };
-		BB887440B7E1BAE3DEC5C019 /* ImplicitFieldSignUpSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldSignUpSnapshotTests.swift; sourceTree = "<group>"; };
+		BB887440B7E1BAE3DEC5C019 /* ImplicitFieldsSignUpSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsSignUpSnapshotTests.swift; sourceTree = "<group>"; };
 		BB8875109FCC6F52D756A679 /* GenericSignUpViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericSignUpViewControllerTests.swift; sourceTree = "<group>"; };
 		BB8876CE616A33AF6B7D9D6B /* TableFormButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableFormButtonCell.swift; sourceTree = "<group>"; };
 		BB8876E13756A3FFC46FD002 /* GenericSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericSnapshotTests.swift; sourceTree = "<group>"; };
@@ -253,7 +253,7 @@
 				BB887B8DD37EF86BFC802D0A /* NestedFieldsSignInSnapshotTests.swift */,
 				BB8870BBB680BC664CBB50C5 /* ImplicitFieldsSignInSnapshotTests.swift */,
 				BB887964AFF55DF67798D6CF /* NestedFieldsSignUpSnapshotTests.swift */,
-				BB887440B7E1BAE3DEC5C019 /* ImplicitFieldSignUpSnapshotTests.swift */,
+				BB887440B7E1BAE3DEC5C019 /* ImplicitFieldsSignUpSnapshotTests.swift */,
 			);
 			path = SnapshotTests;
 			sourceTree = "<group>";
@@ -700,7 +700,7 @@
 				BB8878B102496C9758C000EB /* ImplicitFieldsSignUpViewControllerTests.swift in Sources */,
 				BB887B3FC6609D937A1FD780 /* GenericTests.swift in Sources */,
 				BB887B99A1F4A8C9A59189AF /* NestedFieldsSignUpSnapshotTests.swift in Sources */,
-				BB8877D889C41E17CFAF1B55 /* ImplicitFieldSignUpSnapshotTests.swift in Sources */,
+				BB8877D889C41E17CFAF1B55 /* ImplicitFieldsSignUpSnapshotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

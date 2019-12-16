@@ -10,13 +10,13 @@ import FBSnapshotTestCase
 
 class GenericSnapshotTests: FBSnapshotTestCase {
     var viewController: AutofillableViewController!
-    private static let recordingReferences = false
+    private static let releaseMode = true
 
     override func setUp() {
         super.setUp()
 
-        viewController = createVC(autofillEnabled: !GenericSnapshotTests.recordingReferences)
-        recordMode = GenericSnapshotTests.recordingReferences
+        viewController = createVC(autofillEnabled: GenericSnapshotTests.releaseMode)
+        recordMode = !GenericSnapshotTests.releaseMode
     }
 
     override func tearDown() {

@@ -4,11 +4,10 @@
 //
 
 
-import Foundation
 @testable import AutofillerExamples
 
-class NestedFieldsSnapshotTests: GenericSnapshotTests {
+class ImplicitFieldSignUpSnapshotTests: GenericSnapshotTests {
     override func createVC(autofillEnabled: Bool) -> AutofillableViewController {
-        return NestedFieldsViewController(autofillEnabled: autofillEnabled)
+        return ImplicitFieldsSignUpViewController(autofillEnabled: autofillEnabled)
     }
 }

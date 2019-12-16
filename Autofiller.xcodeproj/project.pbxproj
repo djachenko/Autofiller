@@ -7,36 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13252BD50A2111D6F303B08E /* Pods_AutofillerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E74F0E46A49E153DE3BFC7 /* Pods_AutofillerTests.framework */; };
-		6E2E3F9AE5BCEDBC8A606D9D /* Pods_AutofillerExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FED3BC46C139ED95493981 /* Pods_AutofillerExamples.framework */; };
-		BB887021791AC0A66CEA7CFD /* GenericSignUpViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8870A688422FD88E2F14AB /* GenericSignUpViewControllerTests.swift */; };
-		BB887089BC0B6D24CC7690B8 /* GenericSignInViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887AFF14A3FD2F403A0D14 /* GenericSignInViewControllerTests.swift */; };
+		074CE5C50C95B7F9302401F5 /* Pods_AutofillerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F22F32B7D47C545DFCD600 /* Pods_AutofillerTests.framework */; };
+		27CE383A988B35D492D3326D /* Pods_AutofillerExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A8DD048ACEF189BCFD1729 /* Pods_AutofillerExamples.framework */; };
 		BB8870AB7DE0AD3F57661E5C /* TableFormButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887A56CC3FBCF7A49C12F4 /* TableFormButtonCell.xib */; };
+		BB8870B467D1D6CEC728C5F7 /* GenericSignInViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887CA328E5A9E627CB1C56 /* GenericSignInViewControllerTests.swift */; };
 		BB887150E763F998A26D2597 /* ImplicitFieldsSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887AD18785098EA2F6069B /* ImplicitFieldsSignUpViewController.swift */; };
 		BB887158B4AE4DDA28BB8B2B /* TableFormFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB8878BD1AE0F99B925B5D3F /* TableFormFieldCell.xib */; };
 		BB8871934A24E863B6323D22 /* SignUpAutofillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887D3FEE17DDEE6B0A0392 /* SignUpAutofillViewController.swift */; };
+		BB88719C7CC8D02A2A4F2DEB /* ImplicitFieldsSignInSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8870BBB680BC664CBB50C5 /* ImplicitFieldsSignInSnapshotTests.swift */; };
 		BB8871A8654F683495C7FE7A /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887297D321420763E1146F /* Array+Extensions.swift */; };
-		BB8871F76F223C58E092EC94 /* NestedFieldsSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887F798AD06F58FFA5BBBD /* NestedFieldsSignInViewController.swift */; };
 		BB887245367C33B8383A12DB /* TableFormButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8876CE616A33AF6B7D9D6B /* TableFormButtonCell.swift */; };
 		BB8872698CA2A4886C69BCC0 /* ImplicitFieldsSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887DD332DF84862485F389 /* ImplicitFieldsSignInViewController.swift */; };
 		BB88732E168A0951B5E41AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8878673CEE4520952F2BA9 /* LaunchScreen.storyboard */; };
+		BB8873E7E5C3C900E99B709E /* GenericSignUpViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8875109FCC6F52D756A679 /* GenericSignUpViewControllerTests.swift */; };
 		BB8874417D2CA0ACA2E65E21 /* TableFormFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887715520E7AC3F6907149 /* TableFormFieldCell.swift */; };
 		BB88744C490E573370C68870 /* NestedFieldsSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8872BB29BF50E419A4043E /* NestedFieldsSignUpViewController.swift */; };
-		BB887549C9F42ED19753183C /* ImplicitFieldsSignUpViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB88710343F0CAE5F0B10FCA /* ImplicitFieldsSignUpViewControllerTests.swift */; };
+		BB8875AA84EF8BD0140A628A /* ImplicitFieldsSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887A3AE1F850415F792E8B /* ImplicitFieldsSignInViewController.swift */; };
 		BB8875FF4A23115013EDEC12 /* TableFormSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB88711ACF7C354C3C704F52 /* TableFormSignUpViewController.xib */; };
 		BB88763425A37FD71A973EFE /* TableFormSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887F24745C3824350E7F37 /* TableFormSignUpViewController.swift */; };
 		BB88768DA998B499B1E6D636 /* TableFormSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887A273971B39A7BA0FFE6 /* TableFormSignInViewController.xib */; };
 		BB8876AD70B883C3CE50B920 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887FB64E0696BEA98685DB /* UIView+Extensions.swift */; };
-		BB88776F14366028A00EF1A6 /* NestedFieldsSignUpViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887ABDCA814A4CBDFCDFEF /* NestedFieldsSignUpViewControllerTests.swift */; };
-		BB887777FC51D670B75905AC /* ImplicitFieldsSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887570CCAA809D5D3305F1 /* ImplicitFieldsSignInViewController.swift */; };
+		BB8877B3A8DED20506CF9A95 /* NestedFieldsSignInSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887B8DD37EF86BFC802D0A /* NestedFieldsSignInSnapshotTests.swift */; };
+		BB8877D889C41E17CFAF1B55 /* ImplicitFieldSignUpSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887440B7E1BAE3DEC5C019 /* ImplicitFieldSignUpSnapshotTests.swift */; };
+		BB8878B102496C9758C000EB /* ImplicitFieldsSignUpViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887E7C0BD55EDD08AF1B1C /* ImplicitFieldsSignUpViewControllerTests.swift */; };
 		BB8878E66755D9405F92580A /* NestedFieldsSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB88725DED0AE48271C24CD3 /* NestedFieldsSignUpViewController.xib */; };
 		BB88797D06F359DAC01A0C3D /* TableFormSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8870F72CC5E67CE53E2411 /* TableFormSignInViewController.swift */; };
 		BB887AE72A491133D21DFA29 /* NestedFieldsSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887A403E5ACE1348372488 /* NestedFieldsSignInViewController.swift */; };
+		BB887B3FC6609D937A1FD780 /* GenericTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887001FDFCC33EFFA96AFC /* GenericTests.swift */; };
+		BB887B99A1F4A8C9A59189AF /* NestedFieldsSignUpSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887964AFF55DF67798D6CF /* NestedFieldsSignUpSnapshotTests.swift */; };
+		BB887C290D244EDE7E0E570C /* NestedFieldsSignUpViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB88771740687A4E12DB11F0 /* NestedFieldsSignUpViewControllerTests.swift */; };
 		BB887C3AC8F4142502B1DD18 /* NestedFieldsSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887F32D51368D1C33F2B30 /* NestedFieldsSignInViewController.xib */; };
-		BB887CCA9BEDFE928F5735C8 /* GenericTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB88737194596FFF0DAA20E3 /* GenericTests.swift */; };
 		BB887D0E154C4CF1A3E4FCAF /* ImplicitFieldsSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887EEDFF1F045B0842C8E9 /* ImplicitFieldsSignUpViewController.xib */; };
+		BB887EC0551FD39CFF2E44C9 /* NestedFieldsSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB88774C77313EEC1C5AB22C /* NestedFieldsSignInViewController.swift */; };
 		BB887F7290E7E97BC4D0D1A5 /* SignInAutofillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887202AF2CE33F715AC048 /* SignInAutofillViewController.swift */; };
 		BB887FA3E391877B541AA314 /* ImplicitFieldsSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887EC7C2B7D17A7294380D /* ImplicitFieldsSignInViewController.xib */; };
+		BB887FFFE4DF0B55CCF2AA83 /* GenericSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8876E13756A3FFC46FD002 /* GenericSnapshotTests.swift */; };
 		D06080B02395C13E00643D02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D53C57238C390A008A7137 /* AppDelegate.swift */; };
 		D06080B12395C13E00643D02 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887004D7BCACEA8CEFD20B /* BaseViewController.swift */; };
 		D06080B22395C13E00643D02 /* ExampleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8878AD6FD6289E05B5B766 /* ExampleListViewController.swift */; };
@@ -75,24 +80,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		27E74F0E46A49E153DE3BFC7 /* Pods_AutofillerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutofillerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		593399A5F882BDE76F04913A /* Pods-AutofillerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerTests.debug.xcconfig"; path = "Target Support Files/Pods-AutofillerTests/Pods-AutofillerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		89FED3BC46C139ED95493981 /* Pods_AutofillerExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutofillerExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F22F32B7D47C545DFCD600 /* Pods_AutofillerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutofillerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37515CCFC76D07E1A506920C /* Pods-AutofillerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerTests.release.xcconfig"; path = "Target Support Files/Pods-AutofillerTests/Pods-AutofillerTests.release.xcconfig"; sourceTree = "<group>"; };
+		39FA5AA398AA157E34666358 /* Pods-AutofillerExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerExamples.debug.xcconfig"; path = "Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		A61EC742C2A59824490A8B10 /* Pods-AutofillerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerTests.debug.xcconfig"; path = "Target Support Files/Pods-AutofillerTests/Pods-AutofillerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB8870001E84D001D36EC5D2 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = file.yml; path = .travis.yml; sourceTree = "<group>"; };
+		BB887001FDFCC33EFFA96AFC /* GenericTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericTests.swift; sourceTree = "<group>"; };
 		BB887004D7BCACEA8CEFD20B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		BB8870748A382E670C3AF8AB /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		BB8870A688422FD88E2F14AB /* GenericSignUpViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericSignUpViewControllerTests.swift; sourceTree = "<group>"; };
+		BB8870BBB680BC664CBB50C5 /* ImplicitFieldsSignInSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsSignInSnapshotTests.swift; sourceTree = "<group>"; };
 		BB8870F72CC5E67CE53E2411 /* TableFormSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableFormSignInViewController.swift; sourceTree = "<group>"; };
-		BB88710343F0CAE5F0B10FCA /* ImplicitFieldsSignUpViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsSignUpViewControllerTests.swift; sourceTree = "<group>"; };
 		BB88711ACF7C354C3C704F52 /* TableFormSignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableFormSignUpViewController.xib; sourceTree = "<group>"; };
 		BB887202AF2CE33F715AC048 /* SignInAutofillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInAutofillViewController.swift; sourceTree = "<group>"; };
 		BB88725DED0AE48271C24CD3 /* NestedFieldsSignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedFieldsSignUpViewController.xib; sourceTree = "<group>"; };
 		BB887297D321420763E1146F /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		BB8872BB29BF50E419A4043E /* NestedFieldsSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsSignUpViewController.swift; sourceTree = "<group>"; };
-		BB88737194596FFF0DAA20E3 /* GenericTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericTests.swift; sourceTree = "<group>"; };
-		BB887570CCAA809D5D3305F1 /* ImplicitFieldsSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsSignInViewController.swift; sourceTree = "<group>"; };
+		BB887440B7E1BAE3DEC5C019 /* ImplicitFieldSignUpSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldSignUpSnapshotTests.swift; sourceTree = "<group>"; };
+		BB8875109FCC6F52D756A679 /* GenericSignUpViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericSignUpViewControllerTests.swift; sourceTree = "<group>"; };
 		BB8876CE616A33AF6B7D9D6B /* TableFormButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableFormButtonCell.swift; sourceTree = "<group>"; };
+		BB8876E13756A3FFC46FD002 /* GenericSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericSnapshotTests.swift; sourceTree = "<group>"; };
 		BB887715520E7AC3F6907149 /* TableFormFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableFormFieldCell.swift; sourceTree = "<group>"; };
+		BB88771740687A4E12DB11F0 /* NestedFieldsSignUpViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsSignUpViewControllerTests.swift; sourceTree = "<group>"; };
+		BB88774C77313EEC1C5AB22C /* NestedFieldsSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsSignInViewController.swift; sourceTree = "<group>"; };
 		BB8877D3FD09819CA53A1610 /* AutofillableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutofillableViewController.swift; sourceTree = "<group>"; };
 		BB8877DF25541B9E9C82FAFC /* ExampleListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleListViewController.xib; sourceTree = "<group>"; };
 		BB88782A5F01B98038A17615 /* SuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
@@ -100,26 +109,27 @@
 		BB88786F523A9516A81B6E10 /* SuccessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuccessViewController.xib; sourceTree = "<group>"; };
 		BB8878AD6FD6289E05B5B766 /* ExampleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleListViewController.swift; sourceTree = "<group>"; };
 		BB8878BD1AE0F99B925B5D3F /* TableFormFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableFormFieldCell.xib; sourceTree = "<group>"; };
+		BB887964AFF55DF67798D6CF /* NestedFieldsSignUpSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsSignUpSnapshotTests.swift; sourceTree = "<group>"; };
 		BB887A273971B39A7BA0FFE6 /* TableFormSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableFormSignInViewController.xib; sourceTree = "<group>"; };
+		BB887A3AE1F850415F792E8B /* ImplicitFieldsSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsSignInViewController.swift; sourceTree = "<group>"; };
 		BB887A403E5ACE1348372488 /* NestedFieldsSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsSignInViewController.swift; sourceTree = "<group>"; };
 		BB887A56CC3FBCF7A49C12F4 /* TableFormButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableFormButtonCell.xib; sourceTree = "<group>"; };
-		BB887ABDCA814A4CBDFCDFEF /* NestedFieldsSignUpViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsSignUpViewControllerTests.swift; sourceTree = "<group>"; };
 		BB887AD18785098EA2F6069B /* ImplicitFieldsSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsSignUpViewController.swift; sourceTree = "<group>"; };
-		BB887AFF14A3FD2F403A0D14 /* GenericSignInViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericSignInViewControllerTests.swift; sourceTree = "<group>"; };
+		BB887B8DD37EF86BFC802D0A /* NestedFieldsSignInSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsSignInSnapshotTests.swift; sourceTree = "<group>"; };
 		BB887BCAF7F4B45BB2C115D9 /* ExampleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleTableViewCell.xib; sourceTree = "<group>"; };
 		BB887BCD836EFB0C867C361F /* Autofiller.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = Autofiller.podspec; sourceTree = "<group>"; };
+		BB887CA328E5A9E627CB1C56 /* GenericSignInViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericSignInViewControllerTests.swift; sourceTree = "<group>"; };
 		BB887CE791322F583084937A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		BB887D3FEE17DDEE6B0A0392 /* SignUpAutofillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpAutofillViewController.swift; sourceTree = "<group>"; };
 		BB887DD332DF84862485F389 /* ImplicitFieldsSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsSignInViewController.swift; sourceTree = "<group>"; };
+		BB887E7C0BD55EDD08AF1B1C /* ImplicitFieldsSignUpViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsSignUpViewControllerTests.swift; sourceTree = "<group>"; };
 		BB887EC7C2B7D17A7294380D /* ImplicitFieldsSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImplicitFieldsSignInViewController.xib; sourceTree = "<group>"; };
 		BB887EEDFF1F045B0842C8E9 /* ImplicitFieldsSignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImplicitFieldsSignUpViewController.xib; sourceTree = "<group>"; };
 		BB887F24745C3824350E7F37 /* TableFormSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableFormSignUpViewController.swift; sourceTree = "<group>"; };
 		BB887F32D51368D1C33F2B30 /* NestedFieldsSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedFieldsSignInViewController.xib; sourceTree = "<group>"; };
-		BB887F798AD06F58FFA5BBBD /* NestedFieldsSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsSignInViewController.swift; sourceTree = "<group>"; };
 		BB887FB64E0696BEA98685DB /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		BB887FBA3A96224D3002747C /* ExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewCell.swift; sourceTree = "<group>"; };
-		BD0064BC13CC33EA333753E4 /* Pods-AutofillerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerTests.release.xcconfig"; path = "Target Support Files/Pods-AutofillerTests/Pods-AutofillerTests.release.xcconfig"; sourceTree = "<group>"; };
-		CDEF64BB71BA2664E76C50CC /* Pods-AutofillerExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerExamples.release.xcconfig"; path = "Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples.release.xcconfig"; sourceTree = "<group>"; };
+		C58F7DDFEE7AA9C41C2377B0 /* Pods-AutofillerExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerExamples.release.xcconfig"; path = "Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples.release.xcconfig"; sourceTree = "<group>"; };
 		D021C40723A2938C00F59ED0 /* AutofillerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutofillerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D021C40B23A2938C00F59ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D060809D2395BFC700643D02 /* AutofillerExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutofillerExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,7 +141,7 @@
 		D0DF30942395C76B0040388E /* Autofiller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Autofiller.h; sourceTree = "<group>"; };
 		D0DF30952395C76B0040388E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0DF309E2395C7B40040388E /* Autofiller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Autofiller.swift; sourceTree = "<group>"; };
-		E1B1C3A8607417CE1C58A50F /* Pods-AutofillerExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerExamples.debug.xcconfig"; path = "Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		F2A8DD048ACEF189BCFD1729 /* Pods_AutofillerExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutofillerExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13252BD50A2111D6F303B08E /* Pods_AutofillerTests.framework in Frameworks */,
+				074CE5C50C95B7F9302401F5 /* Pods_AutofillerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E2E3F9AE5BCEDBC8A606D9D /* Pods_AutofillerExamples.framework in Frameworks */,
+				27CE383A988B35D492D3326D /* Pods_AutofillerExamples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,22 +171,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A2C256A542F4FEA59350D32 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				89FED3BC46C139ED95493981 /* Pods_AutofillerExamples.framework */,
-				27E74F0E46A49E153DE3BFC7 /* Pods_AutofillerTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		9C3EAFF8D8351DF2664EF710 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E1B1C3A8607417CE1C58A50F /* Pods-AutofillerExamples.debug.xcconfig */,
-				CDEF64BB71BA2664E76C50CC /* Pods-AutofillerExamples.release.xcconfig */,
-				593399A5F882BDE76F04913A /* Pods-AutofillerTests.debug.xcconfig */,
-				BD0064BC13CC33EA333753E4 /* Pods-AutofillerTests.release.xcconfig */,
+				39FA5AA398AA157E34666358 /* Pods-AutofillerExamples.debug.xcconfig */,
+				C58F7DDFEE7AA9C41C2377B0 /* Pods-AutofillerExamples.release.xcconfig */,
+				A61EC742C2A59824490A8B10 /* Pods-AutofillerTests.debug.xcconfig */,
+				37515CCFC76D07E1A506920C /* Pods-AutofillerTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -245,6 +246,18 @@
 			path = NestedFieldsSignInViewController;
 			sourceTree = "<group>";
 		};
+		BB88759CABF6E7F6CE00B355 /* SnapshotTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB8876E13756A3FFC46FD002 /* GenericSnapshotTests.swift */,
+				BB887B8DD37EF86BFC802D0A /* NestedFieldsSignInSnapshotTests.swift */,
+				BB8870BBB680BC664CBB50C5 /* ImplicitFieldsSignInSnapshotTests.swift */,
+				BB887964AFF55DF67798D6CF /* NestedFieldsSignUpSnapshotTests.swift */,
+				BB887440B7E1BAE3DEC5C019 /* ImplicitFieldSignUpSnapshotTests.swift */,
+			);
+			path = SnapshotTests;
+			sourceTree = "<group>";
+		};
 		BB8875E0801D9CD265F1ED74 /* ImplicitFieldsSignInViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,14 +278,24 @@
 			path = SignUpExamples;
 			sourceTree = "<group>";
 		};
-		BB8879FD87C166A21375DA9E /* SignUpViewControllersTests */ = {
+		BB887B242C949742E8E93413 /* SignUpViewControllersTests */ = {
 			isa = PBXGroup;
 			children = (
-				BB8870A688422FD88E2F14AB /* GenericSignUpViewControllerTests.swift */,
-				BB887ABDCA814A4CBDFCDFEF /* NestedFieldsSignUpViewControllerTests.swift */,
-				BB88710343F0CAE5F0B10FCA /* ImplicitFieldsSignUpViewControllerTests.swift */,
+				BB8875109FCC6F52D756A679 /* GenericSignUpViewControllerTests.swift */,
+				BB88771740687A4E12DB11F0 /* NestedFieldsSignUpViewControllerTests.swift */,
+				BB887E7C0BD55EDD08AF1B1C /* ImplicitFieldsSignUpViewControllerTests.swift */,
 			);
 			path = SignUpViewControllersTests;
+			sourceTree = "<group>";
+		};
+		BB887B7263D8768F85F7A37F /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB887EBAF7CA45585938B351 /* SignInViewControllersTests */,
+				BB887B242C949742E8E93413 /* SignUpViewControllersTests */,
+				BB887001FDFCC33EFFA96AFC /* GenericTests.swift */,
+			);
+			path = UnitTests;
 			sourceTree = "<group>";
 		};
 		BB887C23494557401E6CD358 /* NestedFieldsSignUpViewController */ = {
@@ -322,6 +345,16 @@
 			path = SignInExamples;
 			sourceTree = "<group>";
 		};
+		BB887EBAF7CA45585938B351 /* SignInViewControllersTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB887CA328E5A9E627CB1C56 /* GenericSignInViewControllerTests.swift */,
+				BB88774C77313EEC1C5AB22C /* NestedFieldsSignInViewController.swift */,
+				BB887A3AE1F850415F792E8B /* ImplicitFieldsSignInViewController.swift */,
+			);
+			path = SignInViewControllersTests;
+			sourceTree = "<group>";
+		};
 		BB887FD907DDAB0E22A02323 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,23 +375,12 @@
 			path = Examples;
 			sourceTree = "<group>";
 		};
-		BB887FE1DD5B3BE6800B676B /* SignInViewControllersTests */ = {
-			isa = PBXGroup;
-			children = (
-				BB887AFF14A3FD2F403A0D14 /* GenericSignInViewControllerTests.swift */,
-				BB887570CCAA809D5D3305F1 /* ImplicitFieldsSignInViewController.swift */,
-				BB887F798AD06F58FFA5BBBD /* NestedFieldsSignInViewController.swift */,
-			);
-			path = SignInViewControllersTests;
-			sourceTree = "<group>";
-		};
 		D021C40823A2938C00F59ED0 /* AutofillerTests */ = {
 			isa = PBXGroup;
 			children = (
 				D021C40B23A2938C00F59ED0 /* Info.plist */,
-				BB887FE1DD5B3BE6800B676B /* SignInViewControllersTests */,
-				BB88737194596FFF0DAA20E3 /* GenericTests.swift */,
-				BB8879FD87C166A21375DA9E /* SignUpViewControllersTests */,
+				BB88759CABF6E7F6CE00B355 /* SnapshotTests */,
+				BB887B7263D8768F85F7A37F /* UnitTests */,
 			);
 			path = AutofillerTests;
 			sourceTree = "<group>";
@@ -390,8 +412,8 @@
 				D0D53C55238C390A008A7137 /* Products */,
 				BB887BCD836EFB0C867C361F /* Autofiller.podspec */,
 				BB8870748A382E670C3AF8AB /* LICENSE.txt */,
-				9A2C256A542F4FEA59350D32 /* Frameworks */,
 				BB8870001E84D001D36EC5D2 /* .travis.yml */,
+				F3CD072D8D4CF553BA4EFDD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -416,6 +438,15 @@
 			path = Autofiller;
 			sourceTree = "<group>";
 		};
+		F3CD072D8D4CF553BA4EFDD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2A8DD048ACEF189BCFD1729 /* Pods_AutofillerExamples.framework */,
+				16F22F32B7D47C545DFCD600 /* Pods_AutofillerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -434,11 +465,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D021C41123A2938C00F59ED0 /* Build configuration list for PBXNativeTarget "AutofillerTests" */;
 			buildPhases = (
-				EA7BCA1F54C39EB75BCCE26D /* [CP] Check Pods Manifest.lock */,
+				22C4E294F353626456CAA048 /* [CP] Check Pods Manifest.lock */,
 				D021C40323A2938C00F59ED0 /* Sources */,
 				D021C40423A2938C00F59ED0 /* Frameworks */,
 				D021C40523A2938C00F59ED0 /* Resources */,
-				F340F4229F5741088FFB0DE9 /* [CP] Embed Pods Frameworks */,
+				857885D1A7E8C47BA1B45257 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -454,12 +485,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D06080AE2395BFC800643D02 /* Build configuration list for PBXNativeTarget "AutofillerExamples" */;
 			buildPhases = (
-				4AF3766604D28042702DACF6 /* [CP] Check Pods Manifest.lock */,
+				6DFCB20380023A8DAC4CF4BA /* [CP] Check Pods Manifest.lock */,
 				D06080992395BFC700643D02 /* Sources */,
 				D060809A2395BFC700643D02 /* Frameworks */,
 				D060809B2395BFC700643D02 /* Resources */,
 				D06080D12395C39000643D02 /* Embed Frameworks */,
-				41B5D7037AC27BA3256F372E /* [CP] Embed Pods Frameworks */,
+				59F14990724ED975A9B68EDF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -573,46 +604,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		41B5D7037AC27BA3256F372E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4AF3766604D28042702DACF6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AutofillerExamples-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EA7BCA1F54C39EB75BCCE26D /* [CP] Check Pods Manifest.lock */ = {
+		22C4E294F353626456CAA048 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -634,7 +626,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F340F4229F5741088FFB0DE9 /* [CP] Embed Pods Frameworks */ = {
+		59F14990724ED975A9B68EDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DFCB20380023A8DAC4CF4BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutofillerExamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		857885D1A7E8C47BA1B45257 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -658,13 +689,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB887089BC0B6D24CC7690B8 /* GenericSignInViewControllerTests.swift in Sources */,
-				BB887777FC51D670B75905AC /* ImplicitFieldsSignInViewController.swift in Sources */,
-				BB8871F76F223C58E092EC94 /* NestedFieldsSignInViewController.swift in Sources */,
-				BB887CCA9BEDFE928F5735C8 /* GenericTests.swift in Sources */,
-				BB887021791AC0A66CEA7CFD /* GenericSignUpViewControllerTests.swift in Sources */,
-				BB88776F14366028A00EF1A6 /* NestedFieldsSignUpViewControllerTests.swift in Sources */,
-				BB887549C9F42ED19753183C /* ImplicitFieldsSignUpViewControllerTests.swift in Sources */,
+				BB887FFFE4DF0B55CCF2AA83 /* GenericSnapshotTests.swift in Sources */,
+				BB8877B3A8DED20506CF9A95 /* NestedFieldsSignInSnapshotTests.swift in Sources */,
+				BB88719C7CC8D02A2A4F2DEB /* ImplicitFieldsSignInSnapshotTests.swift in Sources */,
+				BB8870B467D1D6CEC728C5F7 /* GenericSignInViewControllerTests.swift in Sources */,
+				BB887EC0551FD39CFF2E44C9 /* NestedFieldsSignInViewController.swift in Sources */,
+				BB8875AA84EF8BD0140A628A /* ImplicitFieldsSignInViewController.swift in Sources */,
+				BB8873E7E5C3C900E99B709E /* GenericSignUpViewControllerTests.swift in Sources */,
+				BB887C290D244EDE7E0E570C /* NestedFieldsSignUpViewControllerTests.swift in Sources */,
+				BB8878B102496C9758C000EB /* ImplicitFieldsSignUpViewControllerTests.swift in Sources */,
+				BB887B3FC6609D937A1FD780 /* GenericTests.swift in Sources */,
+				BB887B99A1F4A8C9A59189AF /* NestedFieldsSignUpSnapshotTests.swift in Sources */,
+				BB8877D889C41E17CFAF1B55 /* ImplicitFieldSignUpSnapshotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,7 +750,7 @@
 /* Begin XCBuildConfiguration section */
 		D021C40F23A2938C00F59ED0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 593399A5F882BDE76F04913A /* Pods-AutofillerTests.debug.xcconfig */;
+			baseConfigurationReference = A61EC742C2A59824490A8B10 /* Pods-AutofillerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -735,7 +771,7 @@
 		};
 		D021C41023A2938C00F59ED0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD0064BC13CC33EA333753E4 /* Pods-AutofillerTests.release.xcconfig */;
+			baseConfigurationReference = 37515CCFC76D07E1A506920C /* Pods-AutofillerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -756,7 +792,7 @@
 		};
 		D06080AC2395BFC800643D02 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1B1C3A8607417CE1C58A50F /* Pods-AutofillerExamples.debug.xcconfig */;
+			baseConfigurationReference = 39FA5AA398AA157E34666358 /* Pods-AutofillerExamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AutofillerExamples/AutofillerExamples.entitlements;
@@ -778,7 +814,7 @@
 		};
 		D06080AD2395BFC800643D02 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDEF64BB71BA2664E76C50CC /* Pods-AutofillerExamples.release.xcconfig */;
+			baseConfigurationReference = C58F7DDFEE7AA9C41C2377B0 /* Pods-AutofillerExamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AutofillerExamples/AutofillerExamples.entitlements;

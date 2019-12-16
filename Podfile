@@ -7,7 +7,6 @@ use_frameworks!
 def shared_pods
   pod 'TableKit'
   pod 'Autofiller', :path => '.'
-  pod 'Reusable'
 end
 
 target 'AutofillerExamples' do
@@ -16,4 +15,5 @@ end
 
 target 'AutofillerTests' do
   shared_pods
+  pod 'iOSSnapshotTestCase'
 end

@@ -3,8 +3,8 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "Autofiller"
-  spec.version      = "0.0.1"
-  spec.summary      = "Lightweight library for connecting login and password field into Password Autofill form"
+  spec.version      = "0.1.1"
+  spec.summary      = "Simple library for connecting login and password field into Password Autofill form"
   spec.swift_version = "5.0"
 
   spec.description  = <<-DESC
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "http://github.com/djachenko/Autofiller"
   spec.license      = { :type => "MIT", :file => "LICENSE.txt" }
 
-  spec.author             = { "Igor Djachenko" => "i.s.djachenko@gmail.com" }
+  spec.author       = { "Igor Djachenko" => "i.s.djachenko@gmail.com" }
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/djachenko/Autofiller.git", :tag => "#{spec.version}" }
 

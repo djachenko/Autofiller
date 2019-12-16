@@ -14,6 +14,8 @@ class GenericAutofillerTests: XCTestCase {
     var viewController: AutofillableViewController!
 
     override func setUp() {
+        super.setUp()
+
         viewController = createVC()
 
         let _ = viewController.view
@@ -21,6 +23,8 @@ class GenericAutofillerTests: XCTestCase {
 
     override func tearDown() {
         viewController = nil
+
+        super.tearDown()
     }
 
     func createVC() -> AutofillableViewController {
@@ -35,7 +39,7 @@ class GenericAutofillerTests: XCTestCase {
         XCTAssertNotNil(viewController.passwordField)
     }
 
-    func testSameSuperview() {
+    func testFieldsHaveSameSuperview() {
         XCTAssertEqual(
                 viewController.loginField.superview,
                 viewController.passwordField.superview

@@ -33,7 +33,12 @@ class AutofillableViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        updateAutofill()
+        do {
+            try updateAutofill()
+        }
+        catch let error {
+            showMessage(error: error)
+        }
     }
 
     private func updateTabBarItem() {
@@ -41,20 +46,21 @@ class AutofillableViewController: BaseViewController {
 
         if autofillEnabled {
             item = UITabBarItem(title: "Autofill enabled", image: UIImage(named: "yes_icon"), selectedImage: nil)
-        } else {
+        }
+        else {
             item = UITabBarItem(title: "Autofill disabled", image: UIImage(named: "no_icon"), selectedImage: nil)
         }
 
         tabBarItem = item
     }
 
-    func updateAutofill() {
+    func updateAutofill() throws {
         guard loginField != nil && passwordField != nil else {
             return
         }
 
         if autofillEnabled {
-            Autofiller.connectFields(login: loginField, password: passwordField)
+            try Autofiller.connectFields(login: loginField, password: passwordField)
         }
     }
 
@@ -62,5 +68,29 @@ class AutofillableViewController: BaseViewController {
         let successVC = SuccessViewController()
 
         navigationController?.pushViewController(successVC, animated: true)
+    }
+
+    private func showMessage(error: Error) {
+        var title = "Error"
+        var description = error.localizedDescription
+
+        if let autofillerError = error as? AutofillerError {
+            title = "AutofillerError"
+
+            switch autofillerError {
+                case .noCommonAncestor:
+                    description = "Fields didn't have common ancestor"
+            }
+        }
+
+        let alert = UIAlertController(title: title, message: description, preferredStyle: .alert)
+
+        let okAction = UIAlertAction(title: "OK", style: .default) { _ in
+            self.dismiss(animated: true)
+        }
+
+        alert.addAction(okAction)
+
+        present(alert, animated: true)
     }
 }

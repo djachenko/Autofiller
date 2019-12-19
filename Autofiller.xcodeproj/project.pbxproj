@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		074CE5C50C95B7F9302401F5 /* Pods_AutofillerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F22F32B7D47C545DFCD600 /* Pods_AutofillerTests.framework */; };
-		27CE383A988B35D492D3326D /* Pods_AutofillerExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A8DD048ACEF189BCFD1729 /* Pods_AutofillerExamples.framework */; };
 		BB8870AB7DE0AD3F57661E5C /* TableFormButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887A56CC3FBCF7A49C12F4 /* TableFormButtonCell.xib */; };
 		BB8870B467D1D6CEC728C5F7 /* GenericSignInViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887CA328E5A9E627CB1C56 /* GenericSignInViewControllerTests.swift */; };
 		BB887150E763F998A26D2597 /* ImplicitFieldsSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887AD18785098EA2F6069B /* ImplicitFieldsSignUpViewController.swift */; };
@@ -16,6 +14,7 @@
 		BB8871934A24E863B6323D22 /* SignUpAutofillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887D3FEE17DDEE6B0A0392 /* SignUpAutofillViewController.swift */; };
 		BB88719C7CC8D02A2A4F2DEB /* ImplicitFieldsSignInSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8870BBB680BC664CBB50C5 /* ImplicitFieldsSignInSnapshotTests.swift */; };
 		BB8871A8654F683495C7FE7A /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887297D321420763E1146F /* Array+Extensions.swift */; };
+		BB88720B81BB7A893B49835C /* AutofillerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887CB74D6DBCE8C49F9396 /* AutofillerError.swift */; };
 		BB887245367C33B8383A12DB /* TableFormButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8876CE616A33AF6B7D9D6B /* TableFormButtonCell.swift */; };
 		BB8872698CA2A4886C69BCC0 /* ImplicitFieldsSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887DD332DF84862485F389 /* ImplicitFieldsSignInViewController.swift */; };
 		BB88732E168A0951B5E41AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8878673CEE4520952F2BA9 /* LaunchScreen.storyboard */; };
@@ -27,6 +26,7 @@
 		BB88763425A37FD71A973EFE /* TableFormSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887F24745C3824350E7F37 /* TableFormSignUpViewController.swift */; };
 		BB88768DA998B499B1E6D636 /* TableFormSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB887A273971B39A7BA0FFE6 /* TableFormSignInViewController.xib */; };
 		BB8876AD70B883C3CE50B920 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887FB64E0696BEA98685DB /* UIView+Extensions.swift */; };
+		BB8876B12A4139E94245F959 /* AutofillerErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887F587B128C035A596943 /* AutofillerErrorTests.swift */; };
 		BB8877B3A8DED20506CF9A95 /* NestedFieldsSignInSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887B8DD37EF86BFC802D0A /* NestedFieldsSignInSnapshotTests.swift */; };
 		BB8877D889C41E17CFAF1B55 /* ImplicitFieldsSignUpSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887440B7E1BAE3DEC5C019 /* ImplicitFieldsSignUpSnapshotTests.swift */; };
 		BB8878B102496C9758C000EB /* ImplicitFieldsSignUpViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887E7C0BD55EDD08AF1B1C /* ImplicitFieldsSignUpViewControllerTests.swift */; };
@@ -54,6 +54,8 @@
 		D07DD2C22396B974007D6FD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D53C5E238C390C008A7137 /* Images.xcassets */; };
 		D0DF30962395C76B0040388E /* Autofiller.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DF30942395C76B0040388E /* Autofiller.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0DF30A02395C7B40040388E /* Autofiller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DF309E2395C7B40040388E /* Autofiller.swift */; };
+		D8EB26394A8D874DF266E651 /* Pods_AutofillerExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498614DD4CBB79EB72779AE1 /* Pods_AutofillerExamples.framework */; };
+		DB9FEC69FBAB49209810975B /* Pods_AutofillerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF07A33E7AE7B5124F80790 /* Pods_AutofillerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,10 +82,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		16F22F32B7D47C545DFCD600 /* Pods_AutofillerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutofillerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37515CCFC76D07E1A506920C /* Pods-AutofillerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerTests.release.xcconfig"; path = "Target Support Files/Pods-AutofillerTests/Pods-AutofillerTests.release.xcconfig"; sourceTree = "<group>"; };
-		39FA5AA398AA157E34666358 /* Pods-AutofillerExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerExamples.debug.xcconfig"; path = "Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples.debug.xcconfig"; sourceTree = "<group>"; };
-		A61EC742C2A59824490A8B10 /* Pods-AutofillerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerTests.debug.xcconfig"; path = "Target Support Files/Pods-AutofillerTests/Pods-AutofillerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DF07A33E7AE7B5124F80790 /* Pods_AutofillerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutofillerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		498614DD4CBB79EB72779AE1 /* Pods_AutofillerExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutofillerExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68441B90D2A55B63C558CEC8 /* Pods-AutofillerExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerExamples.debug.xcconfig"; path = "Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		B03071A8542D82E7BF30660E /* Pods-AutofillerExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerExamples.release.xcconfig"; path = "Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples.release.xcconfig"; sourceTree = "<group>"; };
 		BB8870001E84D001D36EC5D2 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = file.yml; path = .travis.yml; sourceTree = "<group>"; };
 		BB887001FDFCC33EFFA96AFC /* GenericTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericTests.swift; sourceTree = "<group>"; };
 		BB887004D7BCACEA8CEFD20B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		BB887BCAF7F4B45BB2C115D9 /* ExampleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleTableViewCell.xib; sourceTree = "<group>"; };
 		BB887BCD836EFB0C867C361F /* Autofiller.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = Autofiller.podspec; sourceTree = "<group>"; };
 		BB887CA328E5A9E627CB1C56 /* GenericSignInViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericSignInViewControllerTests.swift; sourceTree = "<group>"; };
+		BB887CB74D6DBCE8C49F9396 /* AutofillerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutofillerError.swift; sourceTree = "<group>"; };
 		BB887CE791322F583084937A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		BB887D3FEE17DDEE6B0A0392 /* SignUpAutofillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpAutofillViewController.swift; sourceTree = "<group>"; };
 		BB887DD332DF84862485F389 /* ImplicitFieldsSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsSignInViewController.swift; sourceTree = "<group>"; };
@@ -127,9 +130,9 @@
 		BB887EEDFF1F045B0842C8E9 /* ImplicitFieldsSignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImplicitFieldsSignUpViewController.xib; sourceTree = "<group>"; };
 		BB887F24745C3824350E7F37 /* TableFormSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableFormSignUpViewController.swift; sourceTree = "<group>"; };
 		BB887F32D51368D1C33F2B30 /* NestedFieldsSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedFieldsSignInViewController.xib; sourceTree = "<group>"; };
+		BB887F587B128C035A596943 /* AutofillerErrorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutofillerErrorTests.swift; sourceTree = "<group>"; };
 		BB887FB64E0696BEA98685DB /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		BB887FBA3A96224D3002747C /* ExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewCell.swift; sourceTree = "<group>"; };
-		C58F7DDFEE7AA9C41C2377B0 /* Pods-AutofillerExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerExamples.release.xcconfig"; path = "Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples.release.xcconfig"; sourceTree = "<group>"; };
 		D021C40723A2938C00F59ED0 /* AutofillerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutofillerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D021C40B23A2938C00F59ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D060809D2395BFC700643D02 /* AutofillerExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutofillerExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,7 +144,8 @@
 		D0DF30942395C76B0040388E /* Autofiller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Autofiller.h; sourceTree = "<group>"; };
 		D0DF30952395C76B0040388E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0DF309E2395C7B40040388E /* Autofiller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Autofiller.swift; sourceTree = "<group>"; };
-		F2A8DD048ACEF189BCFD1729 /* Pods_AutofillerExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutofillerExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FE138A773E204E9AE8EC63 /* Pods-AutofillerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerTests.release.xcconfig"; path = "Target Support Files/Pods-AutofillerTests/Pods-AutofillerTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF5B27511AA07975AC1071F1 /* Pods-AutofillerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillerTests.debug.xcconfig"; path = "Target Support Files/Pods-AutofillerTests/Pods-AutofillerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				074CE5C50C95B7F9302401F5 /* Pods_AutofillerTests.framework in Frameworks */,
+				DB9FEC69FBAB49209810975B /* Pods_AutofillerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27CE383A988B35D492D3326D /* Pods_AutofillerExamples.framework in Frameworks */,
+				D8EB26394A8D874DF266E651 /* Pods_AutofillerExamples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,13 +175,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		496AAB7AE10698F433CC9D45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				498614DD4CBB79EB72779AE1 /* Pods_AutofillerExamples.framework */,
+				1DF07A33E7AE7B5124F80790 /* Pods_AutofillerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9C3EAFF8D8351DF2664EF710 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				39FA5AA398AA157E34666358 /* Pods-AutofillerExamples.debug.xcconfig */,
-				C58F7DDFEE7AA9C41C2377B0 /* Pods-AutofillerExamples.release.xcconfig */,
-				A61EC742C2A59824490A8B10 /* Pods-AutofillerTests.debug.xcconfig */,
-				37515CCFC76D07E1A506920C /* Pods-AutofillerTests.release.xcconfig */,
+				68441B90D2A55B63C558CEC8 /* Pods-AutofillerExamples.debug.xcconfig */,
+				B03071A8542D82E7BF30660E /* Pods-AutofillerExamples.release.xcconfig */,
+				FF5B27511AA07975AC1071F1 /* Pods-AutofillerTests.debug.xcconfig */,
+				F3FE138A773E204E9AE8EC63 /* Pods-AutofillerTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -294,6 +307,7 @@
 				BB887EBAF7CA45585938B351 /* SignInViewControllersTests */,
 				BB887B242C949742E8E93413 /* SignUpViewControllersTests */,
 				BB887001FDFCC33EFFA96AFC /* GenericTests.swift */,
+				BB887F587B128C035A596943 /* AutofillerErrorTests.swift */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -413,7 +427,7 @@
 				BB887BCD836EFB0C867C361F /* Autofiller.podspec */,
 				BB8870748A382E670C3AF8AB /* LICENSE.txt */,
 				BB8870001E84D001D36EC5D2 /* .travis.yml */,
-				F3CD072D8D4CF553BA4EFDD5 /* Frameworks */,
+				496AAB7AE10698F433CC9D45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -434,17 +448,9 @@
 				D0DF309E2395C7B40040388E /* Autofiller.swift */,
 				BB887FD907DDAB0E22A02323 /* Helpers */,
 				D0DF30952395C76B0040388E /* Info.plist */,
+				BB887CB74D6DBCE8C49F9396 /* AutofillerError.swift */,
 			);
 			path = Autofiller;
-			sourceTree = "<group>";
-		};
-		F3CD072D8D4CF553BA4EFDD5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F2A8DD048ACEF189BCFD1729 /* Pods_AutofillerExamples.framework */,
-				16F22F32B7D47C545DFCD600 /* Pods_AutofillerTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -465,11 +471,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D021C41123A2938C00F59ED0 /* Build configuration list for PBXNativeTarget "AutofillerTests" */;
 			buildPhases = (
-				22C4E294F353626456CAA048 /* [CP] Check Pods Manifest.lock */,
+				9A7FD73FB15E5129DA1CD5BF /* [CP] Check Pods Manifest.lock */,
 				D021C40323A2938C00F59ED0 /* Sources */,
 				D021C40423A2938C00F59ED0 /* Frameworks */,
 				D021C40523A2938C00F59ED0 /* Resources */,
-				857885D1A7E8C47BA1B45257 /* [CP] Embed Pods Frameworks */,
+				8A3599789F96E57BA52C9D95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -485,12 +491,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D06080AE2395BFC800643D02 /* Build configuration list for PBXNativeTarget "AutofillerExamples" */;
 			buildPhases = (
-				6DFCB20380023A8DAC4CF4BA /* [CP] Check Pods Manifest.lock */,
+				0118AA08A71BBFE307160973 /* [CP] Check Pods Manifest.lock */,
 				D06080992395BFC700643D02 /* Sources */,
 				D060809A2395BFC700643D02 /* Frameworks */,
 				D060809B2395BFC700643D02 /* Resources */,
 				D06080D12395C39000643D02 /* Embed Frameworks */,
-				59F14990724ED975A9B68EDF /* [CP] Embed Pods Frameworks */,
+				485F29F983185332C648FE9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -604,46 +610,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		22C4E294F353626456CAA048 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AutofillerTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		59F14990724ED975A9B68EDF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6DFCB20380023A8DAC4CF4BA /* [CP] Check Pods Manifest.lock */ = {
+		0118AA08A71BBFE307160973 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -665,7 +632,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		857885D1A7E8C47BA1B45257 /* [CP] Embed Pods Frameworks */ = {
+		485F29F983185332C648FE9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutofillerExamples/Pods-AutofillerExamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3599789F96E57BA52C9D95 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -680,6 +664,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutofillerTests/Pods-AutofillerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A7FD73FB15E5129DA1CD5BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutofillerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -701,6 +707,7 @@
 				BB887B3FC6609D937A1FD780 /* GenericTests.swift in Sources */,
 				BB887B99A1F4A8C9A59189AF /* NestedFieldsSignUpSnapshotTests.swift in Sources */,
 				BB8877D889C41E17CFAF1B55 /* ImplicitFieldsSignUpSnapshotTests.swift in Sources */,
+				BB8876B12A4139E94245F959 /* AutofillerErrorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -734,6 +741,7 @@
 				D0DF30A02395C7B40040388E /* Autofiller.swift in Sources */,
 				BB8871A8654F683495C7FE7A /* Array+Extensions.swift in Sources */,
 				BB8876AD70B883C3CE50B920 /* UIView+Extensions.swift in Sources */,
+				BB88720B81BB7A893B49835C /* AutofillerError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,7 +758,7 @@
 /* Begin XCBuildConfiguration section */
 		D021C40F23A2938C00F59ED0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A61EC742C2A59824490A8B10 /* Pods-AutofillerTests.debug.xcconfig */;
+			baseConfigurationReference = FF5B27511AA07975AC1071F1 /* Pods-AutofillerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -771,7 +779,7 @@
 		};
 		D021C41023A2938C00F59ED0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37515CCFC76D07E1A506920C /* Pods-AutofillerTests.release.xcconfig */;
+			baseConfigurationReference = F3FE138A773E204E9AE8EC63 /* Pods-AutofillerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -792,7 +800,7 @@
 		};
 		D06080AC2395BFC800643D02 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39FA5AA398AA157E34666358 /* Pods-AutofillerExamples.debug.xcconfig */;
+			baseConfigurationReference = 68441B90D2A55B63C558CEC8 /* Pods-AutofillerExamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AutofillerExamples/AutofillerExamples.entitlements;
@@ -814,7 +822,7 @@
 		};
 		D06080AD2395BFC800643D02 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C58F7DDFEE7AA9C41C2377B0 /* Pods-AutofillerExamples.release.xcconfig */;
+			baseConfigurationReference = B03071A8542D82E7BF30660E /* Pods-AutofillerExamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AutofillerExamples/AutofillerExamples.entitlements;

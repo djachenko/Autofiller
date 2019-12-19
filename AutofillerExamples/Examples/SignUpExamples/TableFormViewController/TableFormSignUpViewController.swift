@@ -25,7 +25,12 @@ class TableFormSignUpViewController: SignUpAutofillViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
-        updateAutofill()
+        do {
+            try updateAutofill()
+        }
+        catch let error {
+            showMessage(error: error)
+        }
     }
 }
 

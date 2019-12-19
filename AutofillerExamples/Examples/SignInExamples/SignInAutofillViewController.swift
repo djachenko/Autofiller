@@ -12,13 +12,13 @@ class SignInAutofillViewController: AutofillableViewController {
     @IBOutlet weak var loginField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
 
-    override func updateAutofill() {
+    override func updateAutofill() throws {
         guard loginField != nil && passwordField != nil else {
             return
         }
 
         if autofillEnabled {
-            Autofiller.connectFields(login: loginField, password: passwordField)
+            try Autofiller.connectFields(login: loginField, password: passwordField)
         }
     }
 

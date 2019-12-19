@@ -16,6 +16,7 @@
 		BB8876AD70B883C3CE50B920 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887FB64E0696BEA98685DB /* UIView+Extensions.swift */; };
 		BB8878220CBE41CD192F9C87 /* NestedFieldsSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8877D4B1BB14463D3C3B62 /* NestedFieldsSnapshotTests.swift */; };
 		BB887A714BCF6F3430581011 /* NestedFieldsAutofillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB88782881147FFA5EBBFA8F /* NestedFieldsAutofillerTests.swift */; };
+		BB887AD952A21D658AB62809 /* AutofillerErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8878D84F9B9A6DAACAFC1F /* AutofillerErrorTests.swift */; };
 		BB887D291ACFDE93B0A65CC9 /* GenericSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB88735B37D9EE6D01FE1A10 /* GenericSnapshotTests.swift */; };
 		BB887E0D64CF56B2DEFC6318 /* ImplicitFieldsSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8877CD705E03CE02F8AA0F /* ImplicitFieldsSnapshotTests.swift */; };
 		BB887F3DC1D06F484F58066C /* ImplicitFieldsAutofillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887D9651045013C5A8ECEC /* ImplicitFieldsAutofillerTests.swift */; };
@@ -82,6 +83,7 @@
 		BB8878673CEE4520952F2BA9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB88786F523A9516A81B6E10 /* SuccessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuccessViewController.xib; sourceTree = "<group>"; };
 		BB8878AD6FD6289E05B5B766 /* ExampleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleListViewController.swift; sourceTree = "<group>"; };
+		BB8878D84F9B9A6DAACAFC1F /* AutofillerErrorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutofillerErrorTests.swift; sourceTree = "<group>"; };
 		BB887A8D797702394D663E86 /* ImplicitFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsViewController.swift; sourceTree = "<group>"; };
 		BB887BCAF7F4B45BB2C115D9 /* ExampleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleTableViewCell.xib; sourceTree = "<group>"; };
 		BB887BCD836EFB0C867C361F /* Autofiller.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = Autofiller.podspec; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				BB887EC4DB450165FC1A83B5 /* GenericAutofillerTests.swift */,
 				BB887D9651045013C5A8ECEC /* ImplicitFieldsAutofillerTests.swift */,
 				BB88782881147FFA5EBBFA8F /* NestedFieldsAutofillerTests.swift */,
+				BB8878D84F9B9A6DAACAFC1F /* AutofillerErrorTests.swift */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -544,6 +547,7 @@
 				BB8878220CBE41CD192F9C87 /* NestedFieldsSnapshotTests.swift in Sources */,
 				BB887D291ACFDE93B0A65CC9 /* GenericSnapshotTests.swift in Sources */,
 				BB887E0D64CF56B2DEFC6318 /* ImplicitFieldsSnapshotTests.swift in Sources */,
+				BB887AD952A21D658AB62809 /* AutofillerErrorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

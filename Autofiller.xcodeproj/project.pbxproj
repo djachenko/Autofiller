@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		13252BD50A2111D6F303B08E /* Pods_AutofillerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E74F0E46A49E153DE3BFC7 /* Pods_AutofillerTests.framework */; };
 		6E2E3F9AE5BCEDBC8A606D9D /* Pods_AutofillerExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FED3BC46C139ED95493981 /* Pods_AutofillerExamples.framework */; };
+		BB887052DB3AED323D8A6942 /* AutofillerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8877B88CDA16EB30A2CB5D /* AutofillerError.swift */; };
 		BB8871A8654F683495C7FE7A /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887297D321420763E1146F /* Array+Extensions.swift */; };
 		BB88732E168A0951B5E41AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8878673CEE4520952F2BA9 /* LaunchScreen.storyboard */; };
 		BB88742BE1061A78C280EBC5 /* GenericAutofillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887EC4DB450165FC1A83B5 /* GenericAutofillerTests.swift */; };
 		BB8876AD70B883C3CE50B920 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887FB64E0696BEA98685DB /* UIView+Extensions.swift */; };
 		BB8878220CBE41CD192F9C87 /* NestedFieldsSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8877D4B1BB14463D3C3B62 /* NestedFieldsSnapshotTests.swift */; };
 		BB887A714BCF6F3430581011 /* NestedFieldsAutofillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB88782881147FFA5EBBFA8F /* NestedFieldsAutofillerTests.swift */; };
+		BB887AD952A21D658AB62809 /* AutofillerErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8878D84F9B9A6DAACAFC1F /* AutofillerErrorTests.swift */; };
 		BB887D291ACFDE93B0A65CC9 /* GenericSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB88735B37D9EE6D01FE1A10 /* GenericSnapshotTests.swift */; };
 		BB887E0D64CF56B2DEFC6318 /* ImplicitFieldsSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8877CD705E03CE02F8AA0F /* ImplicitFieldsSnapshotTests.swift */; };
 		BB887F3DC1D06F484F58066C /* ImplicitFieldsAutofillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB887D9651045013C5A8ECEC /* ImplicitFieldsAutofillerTests.swift */; };
@@ -71,6 +73,7 @@
 		BB88735B37D9EE6D01FE1A10 /* GenericSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericSnapshotTests.swift; sourceTree = "<group>"; };
 		BB88746AE3CE1B45671C0303 /* NestedFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsViewController.swift; sourceTree = "<group>"; };
 		BB887688510569AF58967C1F /* NestedFieldsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedFieldsViewController.xib; sourceTree = "<group>"; };
+		BB8877B88CDA16EB30A2CB5D /* AutofillerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutofillerError.swift; sourceTree = "<group>"; };
 		BB8877CD705E03CE02F8AA0F /* ImplicitFieldsSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsSnapshotTests.swift; sourceTree = "<group>"; };
 		BB8877D3FD09819CA53A1610 /* AutofillableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutofillableViewController.swift; sourceTree = "<group>"; };
 		BB8877D4B1BB14463D3C3B62 /* NestedFieldsSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedFieldsSnapshotTests.swift; sourceTree = "<group>"; };
@@ -80,6 +83,7 @@
 		BB8878673CEE4520952F2BA9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB88786F523A9516A81B6E10 /* SuccessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuccessViewController.xib; sourceTree = "<group>"; };
 		BB8878AD6FD6289E05B5B766 /* ExampleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleListViewController.swift; sourceTree = "<group>"; };
+		BB8878D84F9B9A6DAACAFC1F /* AutofillerErrorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutofillerErrorTests.swift; sourceTree = "<group>"; };
 		BB887A8D797702394D663E86 /* ImplicitFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFieldsViewController.swift; sourceTree = "<group>"; };
 		BB887BCAF7F4B45BB2C115D9 /* ExampleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleTableViewCell.xib; sourceTree = "<group>"; };
 		BB887BCD836EFB0C867C361F /* Autofiller.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = Autofiller.podspec; sourceTree = "<group>"; };
@@ -166,6 +170,7 @@
 				BB887EC4DB450165FC1A83B5 /* GenericAutofillerTests.swift */,
 				BB887D9651045013C5A8ECEC /* ImplicitFieldsAutofillerTests.swift */,
 				BB88782881147FFA5EBBFA8F /* NestedFieldsAutofillerTests.swift */,
+				BB8878D84F9B9A6DAACAFC1F /* AutofillerErrorTests.swift */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -295,6 +300,7 @@
 				D0DF309E2395C7B40040388E /* Autofiller.swift */,
 				BB887FD907DDAB0E22A02323 /* Helpers */,
 				D0DF30952395C76B0040388E /* Info.plist */,
+				BB8877B88CDA16EB30A2CB5D /* AutofillerError.swift */,
 			);
 			path = Autofiller;
 			sourceTree = "<group>";
@@ -541,6 +547,7 @@
 				BB8878220CBE41CD192F9C87 /* NestedFieldsSnapshotTests.swift in Sources */,
 				BB887D291ACFDE93B0A65CC9 /* GenericSnapshotTests.swift in Sources */,
 				BB887E0D64CF56B2DEFC6318 /* ImplicitFieldsSnapshotTests.swift in Sources */,
+				BB887AD952A21D658AB62809 /* AutofillerErrorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +573,7 @@
 				D0DF30A02395C7B40040388E /* Autofiller.swift in Sources */,
 				BB8871A8654F683495C7FE7A /* Array+Extensions.swift in Sources */,
 				BB8876AD70B883C3CE50B920 /* UIView+Extensions.swift in Sources */,
+				BB887052DB3AED323D8A6942 /* AutofillerError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

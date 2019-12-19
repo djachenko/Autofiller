@@ -1,5 +1,5 @@
 PODS:
-  - Autofiller (0.0.1)
+  - Autofiller (0.1.1)
   - iOSSnapshotTestCase (6.2.0):
     - iOSSnapshotTestCase/SwiftSupport (= 6.2.0)
   - iOSSnapshotTestCase/Core (6.2.0)
@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
     :path: "."
 
 SPEC CHECKSUMS:
-  Autofiller: 3b9bc933f464448a5a6978b736f8adf899d7a0b4
+  Autofiller: cb8bdf1d6fad5c599473fe28c26bbfacbe10e13e
   iOSSnapshotTestCase: 9ab44cb5aa62b84d31847f40680112e15ec579a6
   TableKit: 65645d0dd786e21dc61464da59ad770c60a07282
 

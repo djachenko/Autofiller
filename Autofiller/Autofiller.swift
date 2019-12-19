@@ -8,17 +8,17 @@ import UIKit
 
 @available(iOS 11, *)
 public class Autofiller {
-    public static func connectFields(login: UITextField, password: UITextField) {
+    public static func connectFields(login: UITextField, password: UITextField) throws {
         login.textContentType = .username
         password.textContentType = .password
 
-        connect(fields: [
+        try connect(fields: [
             login,
             password
         ])
     }
 
-    public static func connectFields(login: UITextField, newPassword: UITextField, confirmPassword: UITextField? = nil) {
+    public static func connectFields(login: UITextField, newPassword: UITextField, confirmPassword: UITextField? = nil) throws {
         login.textContentType = .username
 
         var newPasswordValue: UITextContentType
@@ -33,7 +33,7 @@ public class Autofiller {
         newPassword.textContentType = newPasswordValue
         confirmPassword?.textContentType = newPasswordValue
 
-        connect(fields: [
+        try connect(fields: [
             login,
             newPassword,
             confirmPassword
@@ -42,9 +42,9 @@ public class Autofiller {
         })
     }
 
-    private static func connect(fields: [UITextField]) {
+    private static func connect(fields: [UITextField]) throws {
         guard let commonView = UIView.commonAncestor(for: fields) else {
-            return
+            throw AutofillerError.noCommonAncestor
         }
 
         let fieldsAreAlreadySiblings = fields

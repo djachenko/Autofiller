@@ -42,27 +42,33 @@ extension TableFormSignInViewController: UITableViewDataSource {
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         var cell: UITableViewCell!
 
-        switch indexPath.row {
-            case 0:
-                let loginCell = tableView.dequeueReusableCell(for: indexPath) as TableFormFieldCell
+        let rowCount = self.tableView(tableView, numberOfRowsInSection: indexPath.section)
 
-                loginField = loginCell.textField
+        if indexPath.row >= rowCount {
+            assertionFailure("Table row range exceeded")
+        }
+        else if indexPath.row == rowCount - 1 {
+            let buttonCell = tableView.dequeueReusableCell(for: indexPath) as TableFormButtonCell
 
-                cell = loginCell
-            case 1:
-                let passwordCell = tableView.dequeueReusableCell(for: indexPath) as TableFormFieldCell
+            buttonCell.delegate = self
 
-                passwordField = passwordCell.textField
+            cell = buttonCell
+        }
+        else {
+            let fieldCell = tableView.dequeueReusableCell(for: indexPath) as TableFormFieldCell
 
-                cell = passwordCell
-            case 2:
-                let buttonCell = tableView.dequeueReusableCell(for: indexPath) as TableFormButtonCell
+            switch indexPath.row {
+                case 0:
+                    loginField = fieldCell.textField
+                    fieldCell.set(placeholder: "login")
+                case 1:
+                    passwordField = fieldCell.textField
+                    fieldCell.set(placeholder: "password")
+                default:
+                    break
+            }
 
-                buttonCell.delegate = self
-
-                cell = buttonCell
-            default:
-                assertionFailure("Table row range exceeded")
+            cell = fieldCell
         }
 
         return cell

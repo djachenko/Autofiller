@@ -60,10 +60,13 @@ extension TableFormSignUpViewController: UITableViewDataSource {
             switch indexPath.row {
                 case 0:
                     loginField = fieldCell.textField
+                    fieldCell.set(placeholder: "login")
                 case 1:
                     newPasswordField = fieldCell.textField
+                    fieldCell.set(placeholder: "new password")
                 case 2:
                     confirmPasswordField = fieldCell.textField
+                    fieldCell.set(placeholder: "confirm password")
                 default:
                     break
             }
